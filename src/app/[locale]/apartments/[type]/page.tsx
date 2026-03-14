@@ -1,3 +1,4 @@
+import { unstable_setRequestLocale } from 'next-intl/server';
 import { Link } from '@/lib/navigation';
 import { ChevronLeft } from 'lucide-react';
 
@@ -141,6 +142,7 @@ const apartmentData: Record<string, ApartmentDetails> = {
 };
 
 export default async function ApartmentDetailPage({ params: { locale, type } }: { params: { locale: string; type: string } }) {
+  unstable_setRequestLocale(locale);
   const aptMsg = await loadAptMessages(locale);
   const t = (key: string) => {
     const keys = key.split('.');

@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { NextIntlClientProvider } from 'next-intl';
+import { unstable_setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { DM_Serif_Display, Inter } from 'next/font/google';
 import { locales, rtlLocales } from '@/i18n';
@@ -100,6 +101,8 @@ export default async function RootLayout({ children, params }: Props) {
   if (!locales.includes(locale)) {
     notFound();
   }
+
+  unstable_setRequestLocale(locale);
 
   const messages = await loadMessages(locale);
   const isRtl = rtlLocales.includes(locale);

@@ -1,4 +1,4 @@
-import { useTranslations } from 'next-intl';
+import { unstable_setRequestLocale } from 'next-intl/server';
 import { Link } from '@/lib/navigation';
 import { Waves, UtensilsCrossed, Wine, Flower2, Dumbbell, Laptop, Clock, Users, MapPin, Smartphone } from 'lucide-react';
 import { notFound } from 'next/navigation';
@@ -191,7 +191,8 @@ export async function generateMetadata({ params: { facility, locale } }: { param
   return { title: data.title };
 }
 
-export default function FacilityPage({ params: { facility } }: { params: { facility: FacilityType } }) {
+export default function FacilityPage({ params: { facility, locale } }: { params: { facility: FacilityType; locale: string } }) {
+  unstable_setRequestLocale(locale);
   const data = facilities[facility];
   if (!data) notFound();
 

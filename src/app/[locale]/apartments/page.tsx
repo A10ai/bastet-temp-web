@@ -1,3 +1,4 @@
+import { unstable_setRequestLocale } from 'next-intl/server';
 import { Link } from '@/lib/navigation';
 import SectionHeader from '@/components/shared/SectionHeader';
 import {
@@ -22,6 +23,7 @@ export async function generateMetadata({ params: { locale } }: { params: { local
 }
 
 export default async function ApartmentsPage({ params: { locale } }: { params: { locale: string } }) {
+  unstable_setRequestLocale(locale);
   const aptMessages = await loadMessages(locale);
   const t = (key: string) => {
     const keys = key.split('.');
