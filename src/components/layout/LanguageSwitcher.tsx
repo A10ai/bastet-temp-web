@@ -10,16 +10,22 @@ import { cn } from '@/lib/utils';
 
 const localeNames: Record<Locale, string> = {
   en: 'English',
+  de: 'Deutsch',
+  ru: 'Русский',
+  it: 'Italiano',
+  pl: 'Polski',
+  cs: 'Čeština',
   ar: 'العربية',
-  fr: 'Français',
-  es: 'Español',
 };
 
 const localeFlags: Record<Locale, string> = {
   en: '🇬🇧',
+  de: '🇩🇪',
+  ru: '🇷🇺',
+  it: '🇮🇹',
+  pl: '🇵🇱',
+  cs: '🇨🇿',
   ar: '🇸🇦',
-  fr: '🇫🇷',
-  es: '🇪🇸',
 };
 
 const LanguageSwitcher = () => {
@@ -72,7 +78,7 @@ const LanguageSwitcher = () => {
           {locales.map((loc) => (
             <button
               key={loc}
-              onClick={() => handleLocaleChange(loc as Locale)}
+              onClick={() => handleLocaleChange(loc)}
               className={cn(
                 'w-full text-left px-4 py-3 flex items-center gap-3 transition-colors duration-200',
                 locale === loc
@@ -80,8 +86,8 @@ const LanguageSwitcher = () => {
                   : 'hover:bg-bastet-sand'
               )}
             >
-              <span className="text-lg">{localeFlags[loc as Locale]}</span>
-              <span>{localeNames[loc as Locale]}</span>
+              <span className="text-lg">{localeFlags[loc]}</span>
+              <span>{localeNames[loc]}</span>
               {locale === loc && (
                 <span className="ml-auto text-sm">✓</span>
               )}

@@ -1,12 +1,12 @@
-import createMiddleware from 'next-intl/middleware';
-import { locales, defaultLocale } from './i18n';
+import { NextResponse } from 'next/server';
+import type { NextRequest } from 'next/server';
 
-export default createMiddleware({
-  locales,
-  defaultLocale,
-  localePrefix: 'always',
-});
+// Middleware disabled for static export (output: 'export')
+// Locale routing handled by [locale] segments + generateStaticParams
+export function middleware(_request: NextRequest) {
+  return NextResponse.next();
+}
 
 export const config = {
-  matcher: ['/', '/(de|en|ru|it|pl|cs|ar)/:path*'],
+  matcher: [],
 };

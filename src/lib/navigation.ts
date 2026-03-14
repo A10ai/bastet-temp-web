@@ -3,3 +3,6 @@ import { locales } from '@/i18n';
 
 export const { Link, redirect, usePathname, useRouter } =
   createSharedPathnamesNavigation({ locales });
+
+// Re-export for convenience
+export { locales };
