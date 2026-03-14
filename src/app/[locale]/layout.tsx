@@ -1,6 +1,5 @@
 import type { Metadata } from 'next';
 import { NextIntlClientProvider } from 'next-intl';
-import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { DM_Serif_Display, Inter } from 'next/font/google';
 import { locales, rtlLocales } from '@/i18n';
@@ -34,6 +33,10 @@ type Props = {
   };
 };
 
+async function loadMessages(locale: string) {
+  return (await import(`@/messages/${locale}.json`)).default;
+}
+
 export async function generateMetadata({ params }: Omit<Props, 'children'>): Promise<Metadata> {
   const locale = params.locale as Locale;
 
@@ -41,7 +44,7 @@ export async function generateMetadata({ params }: Omit<Props, 'children'>): Pro
     notFound();
   }
 
-  const messages = await getMessages({ locale });
+  const messages = await loadMessages(locale);
   const t = (key: string): string => {
     const keys = key.split('.');
     let value: any = messages;
@@ -98,7 +101,7 @@ export default async function RootLayout({ children, params }: Props) {
     notFound();
   }
 
-  const messages = await getMessages({ locale });
+  const messages = await loadMessages(locale);
   const isRtl = rtlLocales.includes(locale);
 
   return (

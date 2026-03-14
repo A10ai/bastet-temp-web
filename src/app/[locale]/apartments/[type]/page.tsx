@@ -1,6 +1,10 @@
-import { getTranslations } from 'next-intl/server';
 import { Link } from '@/lib/navigation';
 import { ChevronLeft } from 'lucide-react';
+
+async function loadAptMessages(locale: string) {
+  const messages = (await import(`@/messages/${locale}.json`)).default;
+  return messages.apartments || {};
+}
 
 export async function generateStaticParams() {
   return [
@@ -12,12 +16,12 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params: { locale, type } }: { params: { locale: string; type: string } }) {
-  const t = await getTranslations({ locale, namespace: 'apartments' });
-  const typeName = type === 'studio' ? t('studio') :
-                   type === 'one-bed' ? t('oneBed') :
-                   type === 'two-bed' ? t('twoBed') : t('penthouse');
+  const apt = await loadAptMessages(locale);
+  const typeName = type === 'studio' ? apt.studio :
+                   type === 'one-bed' ? apt.oneBed :
+                   type === 'two-bed' ? apt.twoBed : apt.penthouse;
   return {
-    title: typeName,
+    title: typeName || type,
   };
 }
 
@@ -137,7 +141,13 @@ const apartmentData: Record<string, ApartmentDetails> = {
 };
 
 export default async function ApartmentDetailPage({ params: { locale, type } }: { params: { locale: string; type: string } }) {
-  const t = await getTranslations({ locale, namespace: 'apartments' });
+  const aptMsg = await loadAptMessages(locale);
+  const t = (key: string) => {
+    const keys = key.split('.');
+    let value: any = aptMsg;
+    for (const k of keys) value = value?.[k];
+    return typeof value === 'string' ? value : '';
+  };
   const apartment = apartmentData[type as keyof typeof apartmentData];
 
   if (!apartment) {

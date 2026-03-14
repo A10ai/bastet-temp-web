@@ -1,4 +1,3 @@
-import { getTranslations } from 'next-intl/server';
 import { Link } from '@/lib/navigation';
 import SectionHeader from '@/components/shared/SectionHeader';
 import {
@@ -10,15 +9,26 @@ import {
   Wind,
 } from 'lucide-react';
 
+async function loadMessages(locale: string) {
+  const messages = (await import(`@/messages/${locale}.json`)).default;
+  return messages.apartments || {};
+}
+
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }) {
-  const t = await getTranslations({ locale, namespace: 'apartments' });
+  const apt = await loadMessages(locale);
   return {
-    title: t('title'),
+    title: apt.title || 'Apartments',
   };
 }
 
 export default async function ApartmentsPage({ params: { locale } }: { params: { locale: string } }) {
-  const t = await getTranslations({ locale, namespace: 'apartments' });
+  const aptMessages = await loadMessages(locale);
+  const t = (key: string) => {
+    const keys = key.split('.');
+    let value: any = aptMessages;
+    for (const k of keys) value = value?.[k];
+    return typeof value === 'string' ? value : '';
+  };
 
   const apartments = [
     {
