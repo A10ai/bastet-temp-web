@@ -59,7 +59,7 @@ export async function generateMetadata({ params }: Omit<Props, 'children'>): Pro
 
   return {
     title: {
-      default: t('meta.title') || 'Bastet Hotel - Live Smart by the Sea',
+      default: t('meta.title') || 'Bastet Hotel - The Smartest Address on the Red Sea',
       template: `%s | ${t('meta.title') || 'Bastet Hotel'}`,
     },
     description: t('meta.description') || 'Experience luxury living at Bastet Hotel. Modern apartments with smart technology by the sea.',
@@ -75,7 +75,7 @@ export async function generateMetadata({ params }: Omit<Props, 'children'>): Pro
       locale: locale,
       url: 'https://bastethotels.com',
       siteName: 'Bastet Hotel',
-      title: t('meta.title') || 'Bastet Hotel - Live Smart by the Sea',
+      title: t('meta.title') || 'Bastet Hotel - The Smartest Address on the Red Sea',
       description: t('meta.description') || 'Experience luxury living at Bastet Hotel.',
       images: [
         {
