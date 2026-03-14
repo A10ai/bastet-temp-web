@@ -26,7 +26,7 @@ body {
 
 /* Typography */
 h1, h2, h3, h4, h5, h6 {
-  @apply font-heading font-serif;
+  @apply font-display;
   letter-spacing: -0.5px;
 }
 
@@ -102,11 +102,6 @@ button:disabled {
   scrollbar-width: thin;
 }
 
-/* Smooth transitions */
-* {
-  @apply transition-colors duration-200;
-}
-
 /* Focus Styles */
 :focus-visible {
   @apply outline-none ring-2 ring-bastet-gold ring-offset-2;
@@ -168,59 +163,27 @@ button:disabled {
 
 /* Animations */
 @keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
 @keyframes slideDown {
-  from {
-    transform: translateY(-10px);
-    opacity: 0;
-  }
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
+  from { transform: translateY(-10px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
 }
 
 @keyframes slideUp {
-  from {
-    transform: translateY(10px);
-    opacity: 0;
-  }
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
+  from { transform: translateY(10px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
 }
 
-.fade-in {
-  animation: fadeIn 0.3s ease-in-out;
-}
-
-.slide-down {
-  animation: slideDown 0.3s ease-in-out;
-}
-
-.slide-up {
-  animation: slideUp 0.3s ease-in-out;
-}
+.fade-in { animation: fadeIn 0.3s ease-in-out; }
+.slide-down { animation: slideDown 0.3s ease-in-out; }
+.slide-up { animation: slideUp 0.3s ease-in-out; }
 
 /* Responsive Typography */
 @media (max-width: 640px) {
-  h1 {
-    @apply text-2xl;
-  }
-
-  h2 {
-    @apply text-xl;
-  }
-
-  h3 {
-    @apply text-lg;
-  }
+  h1 { @apply text-2xl; }
+  h2 { @apply text-xl; }
+  h3 { @apply text-lg; }
 }
