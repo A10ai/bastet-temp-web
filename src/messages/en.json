@@ -1,0 +1,290 @@
+{
+  "meta": {
+    "title": "Bastet Hurghada — AI-Powered Smart Apartment Hotel on the Red Sea",
+    "description": "The Red Sea's first AI-powered smart apartment hotel. 270 fully equipped apartments with smart technology, rooftop bar, pool, spa & co-working. Steps from Mamsha Promenade."
+  },
+  "nav": {
+    "apartments": "Apartments",
+    "facilities": "Facilities",
+    "smartHotel": "Smart Hotel",
+    "location": "Location",
+    "digitalNomads": "Digital Nomads",
+    "blog": "Blog",
+    "about": "About",
+    "contact": "Contact",
+    "bookNow": "Book Now"
+  },
+  "hero": {
+    "tagline": "Live smart by the sea.",
+    "subtitle": "The Red Sea's first AI-powered smart apartment hotel. Your home in Hurghada — but smarter, easier, and more connected than home ever was.",
+    "cta": "Explore Apartments",
+    "ctaSecondary": "Watch the Story"
+  },
+  "home": {
+    "conceptTitle": "A new way to stay in Hurghada",
+    "conceptText": "Bastet is the missing middle. Not an all-inclusive resort. Not a basic rental. A fully equipped apartment with hotel service, smart technology, and a rooftop bar with Red Sea sunsets.",
+    "apartmentsTitle": "Your apartment, your rules",
+    "apartmentsSubtitle": "Every unit comes with a full kitchen, smart climate, keyless entry, and a private balcony. Cook breakfast in your pyjamas or dine at our terrace restaurant. It's your call.",
+    "studio": "Studio",
+    "studioDesc": "35 sqm of smart living with kitchenette, balcony, and everything you need.",
+    "oneBed": "One Bedroom",
+    "oneBedDesc": "70 sqm with a separate living area — perfect for couples and longer stays.",
+    "twoBed": "Two Bedroom",
+    "twoBedDesc": "90 sqm of family space with two bedrooms and in-unit laundry.",
+    "penthouse": "Penthouse",
+    "penthouseDesc": "150 sqm with private rooftop pool and panoramic Red Sea views.",
+    "viewAll": "View All Apartments",
+    "smartTitle": "AI that you don't notice — until you do",
+    "smartSubtitle": "Bastet's technology works invisibly. Your door unlocks from your phone. Your room learns your temperature. The AI concierge speaks your language, 24/7.",
+    "smartKeyless": "Keyless Entry",
+    "smartKeylessDesc": "Unlock with your phone. No queue, no plastic card.",
+    "smartClimate": "Smart Climate",
+    "smartClimateDesc": "Your room learns your preferences automatically.",
+    "smartConcierge": "AI Concierge",
+    "smartConciergeDesc": "Ask anything via WhatsApp or the app. Multilingual, instant.",
+    "smartCheckin": "Automated Check-in",
+    "smartCheckinDesc": "Self-service kiosks. Arrive any hour, go straight to your room.",
+    "learnMore": "Discover Smart Hotel",
+    "facilitiesTitle": "More than a place to sleep",
+    "facilitiesSubtitle": "Pool, rooftop bar, restaurant, spa, gym, co-working — every space designed for living, not just staying.",
+    "pool": "Pool & Sun Deck",
+    "poolDesc": "Main pool with loungers and poolside food & drinks service.",
+    "restaurant": "The Terrace",
+    "restaurantDesc": "Mediterranean-Egyptian cuisine, live cooking station, poolside terrace.",
+    "rooftop": "Rooftop Lounge",
+    "rooftopDesc": "Sunset cocktails, Red Sea views, signature drinks, live DJ weekends.",
+    "spa": "Spa & Wellness",
+    "spaDesc": "Treatment rooms, hammam, sauna, indoor pool, yoga studio.",
+    "gym": "Fitness Centre",
+    "gymDesc": "300 sqm gym with cardio, strength, and free weights. Free for all guests.",
+    "coworking": "Co-Working",
+    "coworkingDesc": "Ergonomic desks, fast Wi-Fi, power outlets. Built for remote work.",
+    "viewFacilities": "Explore Facilities",
+    "locationTitle": "Steps from the sea, minutes from everywhere",
+    "locationSubtitle": "Bastet sits in Hurghada's Kawthar district — steps from Mamsha Promenade, minutes from the airport, walking distance to diving, dining, and nightlife.",
+    "locationAirport": "Minutes from the airport",
+    "locationMamsha": "Steps from Mamsha Promenade",
+    "locationDiving": "Walking distance to dive centres",
+    "locationSunshine": "3,500+ sunshine hours per year",
+    "exploreLocation": "Explore Location",
+    "sustainTitle": "Respect the Red Sea",
+    "sustainSubtitle": "Solar-powered. Plastic-free. Green-certified. Bastet is built for travellers who care about the Red Sea's future.",
+    "sustainSolar": "Solar Energy",
+    "sustainSolarDesc": "Rooftop PV system generating 20–35% of hotel electricity.",
+    "sustainPlastic": "Zero Single-Use Plastics",
+    "sustainPlasticDesc": "Refillable dispensers, sustainable packaging, no plastic bottles.",
+    "sustainEnergy": "Smart Energy",
+    "sustainEnergyDesc": "AI reduces energy consumption by 35–50% vs. conventional hotels.",
+    "sustainGreen": "Green Certified",
+    "sustainGreenDesc": "Pursuing EDGE certification from IFC/World Bank.",
+    "ctaTitle": "Be the first to experience Bastet",
+    "ctaSubtitle": "Opening Q3 2027. Sign up for early-bird rates and exclusive launch offers.",
+    "ctaPlaceholder": "Enter your email",
+    "ctaButton": "Notify Me",
+    "ctaDisclaimer": "No spam. Just launch updates and early booking access."
+  },
+  "apartments": {
+    "title": "Apartments",
+    "subtitle": "Every unit comes fully equipped with a kitchen — because freedom means choice. Cook, dine out, work, or do nothing. It's your call.",
+    "everyApartment": "In every apartment",
+    "features": {
+      "kitchen": "Full kitchenette with dishwasher",
+      "smartLock": "Smart lock — keyless entry via phone",
+      "climate": "Smart climate that learns your preferences",
+      "tv": "Smart TV with streaming apps",
+      "wifi": "Enterprise-grade high-speed Wi-Fi",
+      "balcony": "Private balcony or terrace"
+    },
+    "from": "From",
+    "perNight": "/night",
+    "sqm": "sqm",
+    "viewDetails": "View Details",
+    "bookThis": "Book This Apartment"
+  },
+  "facilities": {
+    "title": "Facilities & Experiences",
+    "subtitle": "Bastet is designed as a destination, not a transit area. Every space invites you to stay a while."
+  },
+  "smartHotel": {
+    "title": "The Smart Hotel",
+    "subtitle": "Bastet isn't a robot hotel. The AI is invisible. You just notice that everything works better, faster, and more personally than you're used to.",
+    "howItWorks": "How it works",
+    "keyless": {
+      "title": "Keyless Smart Entry",
+      "description": "Unlock your apartment with your phone. No check-in queue, no plastic key card, no waiting. Walk straight from the airport to your room."
+    },
+    "checkin": {
+      "title": "Automated Check-in",
+      "description": "Self-service kiosks in the lobby — arrive at any hour, scan your ID, get your room. 24/7, no reception desk needed."
+    },
+    "concierge": {
+      "title": "AI Concierge",
+      "description": "Ask anything via WhatsApp, the Bastet app, or the lobby screen. Restaurant bookings, diving trips, airport transfers, local tips — multilingual and instant."
+    },
+    "climate": {
+      "title": "Smart Climate & Lighting",
+      "description": "Your room learns your preferences. Lights dim automatically at night. AC adjusts when you leave. Wake up to your ideal temperature."
+    },
+    "app": {
+      "title": "App-Based Everything",
+      "description": "Order food, book spa treatments, request housekeeping, control your room — all from the Bastet app on your phone."
+    },
+    "pricing": {
+      "title": "Smart Pricing",
+      "description": "AI-driven dynamic pricing means you always get the best rate for the demand period — and early bookers benefit from better deals."
+    }
+  },
+  "sustainability": {
+    "title": "Sustainability",
+    "subtitle": "Respect the Red Sea",
+    "intro": "Sustainability isn't a marketing add-on at Bastet — it's built into the building and operations from day one.",
+    "solar": {
+      "title": "Solar Energy",
+      "stat": "20–35%",
+      "description": "of hotel electricity generated by our rooftop PV system, powered by 3,500+ hours of Red Sea sunshine per year."
+    },
+    "energy": {
+      "title": "Smart Energy Management",
+      "stat": "35–50%",
+      "description": "reduction in energy consumption vs. conventional hotels, driven by AI-powered climate and lighting optimization."
+    },
+    "plastic": {
+      "title": "Zero Single-Use Plastics",
+      "description": "Refillable dispensers in every room. Sustainable packaging throughout. No plastic bottles, no straws, no waste."
+    },
+    "food": {
+      "title": "Food Waste Composting",
+      "description": "Restaurant waste composted and used for property landscaping. Closing the loop on the Red Sea coast."
+    },
+    "ev": {
+      "title": "EV Charging",
+      "stat": "8–12",
+      "description": "electric vehicle charging stations in covered parking — ready for the future of transport."
+    },
+    "certification": {
+      "title": "Green Building Certification",
+      "description": "Pursuing EDGE certification from IFC/World Bank — the global standard for resource-efficient buildings."
+    },
+    "water": {
+      "title": "Water Conservation",
+      "description": "Smart leak detection, low-flow fixtures, pool water recycling. Every drop matters on the Red Sea coast."
+    }
+  },
+  "digitalNomads": {
+    "title": "Digital Nomads",
+    "headline": "Work from the Red Sea",
+    "subtitle": "Fast Wi-Fi, co-working spaces, a kitchen to cook, and the reef to dive after work. Bastet is built for people who live and work from anywhere.",
+    "whyBastet": "Why nomads choose Bastet",
+    "wifi": "Enterprise-Grade Wi-Fi",
+    "wifiDesc": "Not hotel Wi-Fi — real, fast, reliable internet built for video calls and uploads.",
+    "coworking": "Co-Working Spaces",
+    "coworkingDesc": "Ergonomic desks, power outlets, USB charging, quiet zones. Not a repurposed lobby.",
+    "kitchen": "Your Own Kitchen",
+    "kitchenDesc": "Cook your own meals, save money, eat healthy. Every apartment has a full kitchenette.",
+    "monthly": "Monthly Rates",
+    "monthlyDesc": "From ~$35/night for long stays. The only professionally managed long-stay option in Hurghada.",
+    "community": "Community & Lifestyle",
+    "communityDesc": "Pool, rooftop bar, gym, restaurant — a built-in social life without the isolation of a rental apartment.",
+    "diving": "Dive After Work",
+    "divingDesc": "World-class coral reefs minutes away. Morning standup, afternoon dive. That's the Red Sea nomad life.",
+    "typicalDay": "A typical day at Bastet",
+    "morning": "Morning",
+    "morningDesc": "Wake up, make coffee in your kitchen, work from the balcony or co-working space.",
+    "midday": "Midday",
+    "middayDesc": "Lunch at The Terrace or cook something quick. Dip in the pool between meetings.",
+    "afternoon": "Afternoon",
+    "afternoonDesc": "Close the laptop. Grab your gear. The reef is fifteen minutes away.",
+    "evening": "Evening",
+    "eveningDesc": "Sunset cocktails on the rooftop. Dinner at The Terrace. Plan tomorrow's dive."
+  },
+  "location": {
+    "title": "Location",
+    "subtitle": "Steps from the sea, minutes from everywhere",
+    "intro": "Bastet sits in Hurghada's Kawthar district — the city's premier tourism corridor, where the promenade meets the reef.",
+    "mamsha": "Mamsha Promenade",
+    "mamshaDesc": "Hurghada's premier waterfront walkway with restaurants, shops, and beach access — literally steps from your door.",
+    "airport": "Hurghada Airport",
+    "airportDesc": "Minutes from Hurghada International Airport. No shuttle needed, short transfer. Direct flights from all major European cities.",
+    "diving": "Diving & Marine Life",
+    "divingDesc": "World-class coral reefs and dive centres within walking distance. The Red Sea's underwater world at your doorstep.",
+    "sunshine": "Year-Round Sunshine",
+    "sunshineDesc": "3,500+ hours of sunshine per year — one of the sunniest destinations on Earth. Warm enough for beach all year.",
+    "flights": "Direct European Flights",
+    "flightsDesc": "3–5 hour flights from Germany, UK, Italy, Russia, Poland, Czech Republic. Your Red Sea apartment is closer than you think.",
+    "hurghada": "About Hurghada",
+    "hurghadaText": "Hurghada welcomed over 15.8 million visitors to Egypt in 2024, with the government targeting 30 million by 2030. It's not an emerging destination — it's an established one that's about to get a smart upgrade."
+  },
+  "blog": {
+    "title": "Journal",
+    "subtitle": "Stories, guides, and insider tips from the Red Sea coast.",
+    "readMore": "Read More",
+    "backToBlog": "Back to Journal",
+    "comingSoon": "Coming Soon",
+    "comingSoonText": "We're working on guides, stories, and insider tips about Hurghada and the Red Sea. Check back soon."
+  },
+  "about": {
+    "title": "About Bastet",
+    "subtitle": "Named after the ancient Egyptian goddess of home, comfort, and protection",
+    "story": "The Bastet Story",
+    "storyP1": "Bastet Hurghada is the Red Sea's first AI-powered smart apartment hotel — a new category of accommodation that didn't exist before.",
+    "storyP2": "We combine the space and independence of a fully equipped apartment with the service, technology, and lifestyle of a premium hotel, all powered by artificial intelligence.",
+    "storyP3": "Named after the ancient Egyptian goddess of home, comfort, and protection, Bastet represents a philosophy: your stay should feel like home, but smarter, easier, and more connected than home ever was.",
+    "philosophy": "Our Philosophy",
+    "philosophyP1": "We're not an all-inclusive resort. We're not a basic Airbnb. We're the missing middle that modern travellers have been waiting for — and we're the first in the world to deliver it with AI at the core.",
+    "numbers": "In Numbers",
+    "units": "Smart Apartments",
+    "sqm": "Total Building Area",
+    "sunshine": "Sunshine Hours/Year",
+    "techSystems": "AI Systems"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Questions, partnerships, or just want to say hello? We'd love to hear from you.",
+    "getInTouch": "Get in Touch",
+    "name": "Name",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Message",
+    "send": "Send Message",
+    "info": "Contact Information",
+    "address": "Kawthar District, Hurghada, Red Sea Governorate, Egypt",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
+    "whatsapp": "WhatsApp",
+    "followUs": "Follow Us"
+  },
+  "booking": {
+    "title": "Book Your Stay",
+    "comingSoon": "Opening Q3 2027",
+    "subtitle": "Direct booking is coming soon. Be first in line for early-bird rates.",
+    "emailPlaceholder": "Enter your email for early access",
+    "notify": "Notify Me",
+    "thankYou": "Thank you! We'll be in touch with exclusive early-bird offers.",
+    "checkIn": "Check In",
+    "checkOut": "Check Out",
+    "guests": "Guests",
+    "search": "Search"
+  },
+  "footer": {
+    "tagline": "Live smart by the sea.",
+    "explore": "Explore",
+    "company": "Company",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookies": "Cookie Policy",
+    "copyright": "© {year} Bastet Hurghada. All rights reserved.",
+    "newsletter": "Stay Updated",
+    "newsletterText": "Get launch updates and early-bird offers.",
+    "emailPlaceholder": "Your email",
+    "subscribe": "Subscribe"
+  },
+  "common": {
+    "readMore": "Read More",
+    "learnMore": "Learn More",
+    "viewAll": "View All",
+    "backToTop": "Back to Top",
+    "loading": "Loading...",
+    "openingDate": "Opening Q3 2027"
+  }
+}

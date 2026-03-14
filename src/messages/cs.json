@@ -1,0 +1,290 @@
+{
+  "meta": {
+    "title": "Bastet Hurghada — Inteligentní Aparthotel Poháněný AI na Červeném Moři",
+    "description": "První inteligentní aparthotel poháněný AI na Červeném Moři. 270 plně vybavených apartmánů s inteligentnými technologiemi, bar na střeše, bazén, spa a prostory pro coworking. Jen pár kroků od Promenády Mamsha."
+  },
+  "nav": {
+    "apartments": "Apartmány",
+    "facilities": "Vybavení",
+    "smartHotel": "Inteligentní Hotel",
+    "location": "Poloha",
+    "digitalNomads": "Digitální Nomádi",
+    "blog": "Blog",
+    "about": "O Nás",
+    "contact": "Kontakt",
+    "bookNow": "Rezervovat Nyní"
+  },
+  "hero": {
+    "tagline": "Žij chytře u moře.",
+    "subtitle": "První inteligentní aparthotel poháněný AI na Červeném Moři. Tvůj domov v Hurgádě — ale chytřejší, jednodušší a lépe připojený, než kdy bydlení bylo.",
+    "cta": "Objevit Apartmány",
+    "ctaSecondary": "Sledovat Příběh"
+  },
+  "home": {
+    "conceptTitle": "Nový způsob pobytu v Hurgádě",
+    "conceptText": "Bastet je ideální střední volba. Není to all-inclusive resort. Není to jednoduchá pronájem. Plně vybavený apartmán s hotelovým servisem, inteligentní technologií a barem na střeše s výhledem na západ slunce nad Červeným Mořem.",
+    "apartmentsTitle": "Tvůj apartmán, tvá pravidla",
+    "apartmentsSubtitle": "Každá jednotka vybavena plnou kuchyní, chytrým klimatizací, bezkľúčovým vstupem a soukromým balkonem. Vaříš si snídaní v pyžamu nebo jez večeři na naší terasě-restauraci. Rozhoduješ se.",
+    "studio": "Studio",
+    "studioDesc": "35 m² inteligentního bydlení s malou kuchyní, balkonem a vším, co potřebuješ.",
+    "oneBed": "Jedna Ložnice",
+    "oneBedDesc": "70 m² s oddělenou obývací místností — ideální pro páry a delší pobyty.",
+    "twoBed": "Dvě Ložnice",
+    "twoBedDesc": "90 m² rodinného prostoru se dvěma ložnicemi a pračkou v apartmánu.",
+    "penthouse": "Penthouse",
+    "penthouseDesc": "150 m² se soukromým bazénem na střeše a panoramatickým výhledem na Červené Moře.",
+    "viewAll": "Zobrazit Všechny Apartmány",
+    "smartTitle": "AI, kterou si neuvědomuješ — dokud si ji neuvědomíš",
+    "smartSubtitle": "Technologie Bastet funguje neviditelně. Tvoje dveře se odemykají z telefonu. Tvůj pokoj se učí tvoji teplotu. Asistent AI mluví tvým jazykem 24/7.",
+    "smartKeyless": "Bezklíčový Vstup",
+    "smartKeylessDesc": "Odemkni telefonem. Žádné fronty, žádné plastové karty.",
+    "smartClimate": "Chytrá Klimatizace",
+    "smartClimateDesc": "Tvůj pokoj se automaticky učí tvoje preference.",
+    "smartConcierge": "Asistent AI",
+    "smartConciergeDesc": "Ptej se přes WhatsApp nebo aplikaci. Vícejazyčný, okamžitý.",
+    "smartCheckin": "Automatizovaný Check-in",
+    "smartCheckinDesc": "Samoobslužné kiosky. Přijeď kdykoliv, jdi přímo do pokoje.",
+    "learnMore": "Objevit Inteligentní Hotel",
+    "facilitiesTitle": "Více než jen místo k spaní",
+    "facilitiesSubtitle": "Bazén, bar na střeše, restaurace, spa, posilovna, coworking — každý prostor pro život, ne jen pro pobyt.",
+    "pool": "Bazén a Sluneční Paluba",
+    "poolDesc": "Hlavní bazén s lehátky a obsluhou u bazénu.",
+    "restaurant": "The Terrace",
+    "restaurantDesc": "Středomořsko-egyptská kuchyně, živá kuchyně, terasa u bazénu.",
+    "rooftop": "Lounge na Střeše",
+    "rooftopDesc": "Koktejly při západu slunce, výhled na moře, podpisové nápoje, živý DJ v pátek.",
+    "spa": "Spa a Wellness",
+    "spaDesc": "Masážní místnosti, hammam, sauna, krytý bazén, jóga studio.",
+    "gym": "Fitness Centrum",
+    "gymDesc": "300 m² posilovna s kardio, silou a volnými váhami. Zdarma pro všechny hosty.",
+    "coworking": "Coworking",
+    "coworkingDesc": "Ergonomické stoly, rychlý Wi-Fi, zásuvky. Vytvořeno pro vzdálenou práci.",
+    "viewFacilities": "Prozkoumat Vybavení",
+    "locationTitle": "Pár kroků od moře, minuty od všeho",
+    "locationSubtitle": "Bastet se nachází v čtvrti Kawthar v Hurgádě — pár kroků od Promenády Mamsha, minuty od letiště, pěší dostupnost potápěčských center, restaurací a nočního života.",
+    "locationAirport": "Minuty od letiště",
+    "locationMamsha": "Pár kroků od Promenády Mamsha",
+    "locationDiving": "Pěší dostupnost potápěčských center",
+    "locationSunshine": "3 500+ slunečných hodin ročně",
+    "exploreLocation": "Prozkoumat Polohu",
+    "sustainTitle": "Úcta k Červenému Moři",
+    "sustainSubtitle": "Pohánějí sluneční energií. Bez plastů. Zeleně certifikováno. Bastet je postaven pro cestovatele, kterým jde o budoucnost Červeného Moře.",
+    "sustainSolar": "Sluneční Energie",
+    "sustainSolarDesc": "Střešní PV systém generující 20–35% elektřiny hotelu.",
+    "sustainPlastic": "Nula Jednorázových Plastů",
+    "sustainPlasticDesc": "Opakovaně plnitelné dávkovače, udržitelné balení, bez plastových lahví.",
+    "sustainEnergy": "Chytrá Energie",
+    "sustainEnergyDesc": "AI snižuje spotřebu energie o 35–50% ve srovnění s konvenčními hotely.",
+    "sustainGreen": "Zelená Certifikace",
+    "sustainGreenDesc": "Usiluje o certifikaci EDGE od IFC/Světové Banky.",
+    "ctaTitle": "Bud prvním, kdo zažije Bastet",
+    "ctaSubtitle": "Otevření Q3 2027. Zaregistruj se na časné ceny a exkluzivní spouštěcí nabídky.",
+    "ctaPlaceholder": "Zadej svůj email",
+    "ctaButton": "Upozorni Mne",
+    "ctaDisclaimer": "Žádný spam. Jen spouštěcí aktualizace a přístup k časným rezervacím."
+  },
+  "apartments": {
+    "title": "Apartmány",
+    "subtitle": "Každá jednotka je plně vybavena kuchyní — protože svoboda znamená volbu. Vaření, jedení venku, práce nebo nic. Je to tvoje volba.",
+    "everyApartment": "V každém apartmánu",
+    "features": {
+      "kitchen": "Plně vybavená malá kuchyň s myčkou",
+      "smartLock": "Inteligentní zámek — bezklíčový vstup přes telefon",
+      "climate": "Chytrá klimatizace, která se učí tvoje preference",
+      "tv": "Smart TV se streamovacími aplikacemi",
+      "wifi": "Wi-Fi vysoké rychlosti na podnikové úrovni",
+      "balcony": "Soukromý balkon nebo terasa"
+    },
+    "from": "Od",
+    "perNight": "/noc",
+    "sqm": "m²",
+    "viewDetails": "Zobrazit Podrobnosti",
+    "bookThis": "Rezervovat Tento Apartmán"
+  },
+  "facilities": {
+    "title": "Vybavení a Zážitky",
+    "subtitle": "Bastet je navržen jako destinace, ne jako tranzitní zóna. Každý prostor tě vybízí, aby ses tu na chvíli zdržel."
+  },
+  "smartHotel": {
+    "title": "Inteligentní Hotel",
+    "subtitle": "Bastet není robotický hotel. AI je neviditelná. Jednoduše si všimneš, že vše funguje lépe, rychleji a osobněji, než jsi zvyklý.",
+    "howItWorks": "Jak to funguje",
+    "keyless": {
+      "title": "Chytrý Bezklíčový Vstup",
+      "description": "Odemkni svůj apartmán telefonem. Žádné fronty při check-in, žádné plastové karty, žádné čekání. Jdi přímo z letiště do pokoje."
+    },
+    "checkin": {
+      "title": "Automatizovaný Check-in",
+      "description": "Samoobslužné kiosky v hale — přijeď kdykoliv, naskenuj ID, dostaneš pokoj. 24/7, není potřebné přijetí."
+    },
+    "concierge": {
+      "title": "Asistent AI",
+      "description": "Ptej se přes WhatsApp, aplikaci Bastet nebo obrazovku v hale. Rezervace restaurací, potápěčské výlety, transfery na letiště, místní tipy — vícejazyčné a okamžité."
+    },
+    "climate": {
+      "title": "Chytrá Klimatizace a Osvětlení",
+      "description": "Tvůj pokoj se učí tvoje preference. Světla se při noci automaticky stmívají. Klimatizace se reguluje, když odcházíš. Probuď se při ideální teplotě."
+    },
+    "app": {
+      "title": "Vše Přes Aplikaci",
+      "description": "Objednej jídlo, rezervuj spa procedury, vyžádej si pokojový servis, ovládej svůj pokoj — vše z aplikace Bastet na telefonu."
+    },
+    "pricing": {
+      "title": "Chytré Ceny",
+      "description": "Dynamické ceny poháněné AI znamenají, že vždy dostaneš nejlepší cenu za dobu poptávky — a dřívější rezervující si užívají lepších nabídek."
+    }
+  },
+  "sustainability": {
+    "title": "Udržitelnost",
+    "subtitle": "Úcta k Červenému Moři",
+    "intro": "Udržitelnost v Bastet není marketingový doplněk — je vestavěna do budovy a operací od prvního dne.",
+    "solar": {
+      "title": "Sluneční Energie",
+      "stat": "20–35%",
+      "description": "elektřiny hotelu vyráběné naší střešní PV soustavou, poháněné 3 500+ hodiny červenomořského slunce ročně."
+    },
+    "energy": {
+      "title": "Inteligentní Řízení Energií",
+      "stat": "35–50%",
+      "description": "snížení spotřeby energie oproti konvenčním hotelům, poháněné optimalizací klimatizace a osvětlení založené na AI."
+    },
+    "plastic": {
+      "title": "Nula Jednorázových Plastů",
+      "description": "Opakovaně plnitelné dávkovače v každém pokoji. Udržitelné balení všude. Žádné plastové lahve, žádné brčka, žádný odpad."
+    },
+    "food": {
+      "title": "Kompostování Potravinového Odpadu",
+      "description": "Restaurační odpad kompostován a použitý na озelenzování nemovitosti. Zavření smyčky na pobřeží Červeného Moře."
+    },
+    "ev": {
+      "title": "Nabíjení Elektrických Vozidel",
+      "stat": "8–12",
+      "description": "nabíjecích stanic pro elektrická vozidla v krytém parkování — připraveno na budoucnost dopravy."
+    },
+    "certification": {
+      "title": "Certifikace Zeleného Budovy",
+      "description": "Usiluje o certifikaci EDGE od IFC/Světové Banky — globální standard pro energeticky efektivní budovy."
+    },
+    "water": {
+      "title": "Úspora Vody",
+      "description": "Chytré detekce úniků, vodoúsporné baterie, recyklace bazénové vody. Každá kapka se počítá na pobřeží Červeného Moře."
+    }
+  },
+  "digitalNomads": {
+    "title": "Digitální Nomádi",
+    "headline": "Pracuj z Červeného Moře",
+    "subtitle": "Rychlý Wi-Fi, prostory coworkingu, kuchyň k vaření a korálové útesy k potápění po práci. Bastet je postaven pro lidi, kteří žijí a pracují odkudkoliv.",
+    "whyBastet": "Proč si nomádi vybírají Bastet",
+    "wifi": "Wi-Fi na Podnikové Úrovni",
+    "wifiDesc": "Ne hotel Wi-Fi — opravdový, rychlý, spolehlivý internet vytvořený pro videohovory a nahrávání.",
+    "coworking": "Prostory Coworkingu",
+    "coworkingDesc": "Ergonomické stoly, zásuvky, USB nabíjení, tichá zóna. Není to přestavěná hala.",
+    "kitchen": "Tvoje Vlastní Kuchyň",
+    "kitchenDesc": "Vaření vlastních jídel, ušetříš peníze, jedíš zdravě. Každý apartmán má plně vybavenou malou kuchyň.",
+    "monthly": "Měsíční Tarify",
+    "monthlyDesc": "Od ~35 $/noc pro delší pobyty. Jedinou profesionálně spravovanou volbou pro dlouhodobé pobyty v Hurgádě.",
+    "community": "Komunita a Životní Styl",
+    "communityDesc": "Bazén, bar na střeše, posilovna, restaurace — vestavěný společenský život bez izolace pronajatého apartmánu.",
+    "diving": "Potápění Po Práci",
+    "divingDesc": "Korálové útesy světové třídy minuty od hotelu. Ráno standup, odpoledne potápění. Takový je život digitálního nomáda na Červeném Moři.",
+    "typicalDay": "Typický Den v Bastet",
+    "morning": "Ráno",
+    "morningDesc": "Probuď se, udělej si kávu v kuchyni, pracuj z balkonu nebo prostoru coworkingu.",
+    "midday": "Poledne",
+    "middayDesc": "Oběd v The Terrace nebo si rychle něco připrav. Skočit si do bazénu mezi schůzkami.",
+    "afternoon": "Odpoledne",
+    "afternoonDesc": "Zavřu laptop. Vezmi si svůj vybavení. Útesy jsou patnáct minut odsud.",
+    "evening": "Večer",
+    "eveningDesc": "Koktejly při západu slunce na střeše. Večeře v The Terrace. Plánuj zítřejší potápění."
+  },
+  "location": {
+    "title": "Poloha",
+    "subtitle": "Pár kroků od moře, minuty od všeho",
+    "intro": "Bastet se nachází v čtvrti Kawthar v Hurgádě — hlavní cestovní korridor města, kde se promenáda setkává s útesy.",
+    "mamsha": "Promenáda Mamsha",
+    "mamshaDesc": "Hlavní příbrežní promenáda Hurgády s restauracemi, obchody a přístupem na pláž — doslova pár kroků od tvých dveří.",
+    "airport": "Letiště Hurgáda",
+    "airportDesc": "Minuty od Mezinárodního letiště Hurgáda. Není potřebný žádný transfer, krátký transfer. Přímé lety ze všech velkých evropských měst.",
+    "diving": "Potápění a Mořský Život",
+    "divingDesc": "Korálové útesy světové třídy a potápěčská střediska pěší dostupností. Podvodní svět Červeného Moře u tvých dveří.",
+    "sunshine": "Celoroční Slunce",
+    "sunshineDesc": "3 500+ slunečných hodin ročně — jedním z nejslunnějších destinací na Zemi. Dostatečně teplé k pláži po celý rok.",
+    "flights": "Přímé Evropské Lety",
+    "flightsDesc": "Lety na 3–5 hodin z Německa, UK, Itálie, Ruska, Polska, Česka. Tvůj apartmán na Červeném Moři je blíž, než si myslíš.",
+    "hurghada": "O Hurgádě",
+    "hurghadaText": "Hurgáda přivítala více než 15,8 milionů návštěvníků v Egyptě v roce 2024, přičemž vláda cílí na 30 milionů do roku 2030. Není to vznikající destinace — je to zavedená, která se chystá získat chytré vylepšení."
+  },
+  "blog": {
+    "title": "Deník",
+    "subtitle": "Příběhy, průvodce a tipy z prvního zdroje z pobřeží Červeného Moře.",
+    "readMore": "Přečtit Více",
+    "backToBlog": "Zpět na Deník",
+    "comingSoon": "Již Brzy",
+    "comingSoonText": "Pracujeme na průvodcích, příbězích a tipech z prvního zdroje o Hurgádě a Červeném Moři. Vrať se brzy."
+  },
+  "about": {
+    "title": "O Nás",
+    "subtitle": "Pojmenovaný po starověké egyptské bohyni domova, pohodlí a ochrany",
+    "story": "Příběh Bastet",
+    "storyP1": "Bastet Hurghada je první inteligentní aparthotel poháněný AI na Červeném Moři — nová kategorie ubytování, která dříve neexistovala.",
+    "storyP2": "Kombinujeme prostor a nezávislost plně vybavenho apartmánu se službou, technologií a životním stylem luxusního hotelu, vše poháněné umělou inteligencí.",
+    "storyP3": "Pojmenovaný po starověké egyptské bohyni domova, pohodlí a ochrany, Bastet představuje filosofii: tvůj pobyt by se měl cítit jako doma, ale chytřeji, jednodušeji a lépe připojené, než kdy bydlení bylo.",
+    "philosophy": "Naše Filosofie",
+    "philosophyP1": "Nejsme all-inclusive resort. Nejsme jednoduché Airbnb. Jsme ideální volba, na kterou čekali moderní cestovatelé — a jsme první na světě, kdo ji dodáváme s AI v jádru.",
+    "numbers": "V Číslech",
+    "units": "Inteligentní Apartmány",
+    "sqm": "Celková Plocha Budovy",
+    "sunshine": "Slunečních Hodin/Rok",
+    "techSystems": "AI Systémy"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Otázky, partnerství nebo chceš jen pozdravit? Rádi se od tebe dovíme.",
+    "getInTouch": "Skontaktuj se",
+    "name": "Jméno",
+    "email": "Email",
+    "subject": "Předmět",
+    "message": "Zpráva",
+    "send": "Poslat Zprávu",
+    "info": "Kontaktní Informace",
+    "address": "Čtvrt Kawthar, Hurgáda, Guvernorát Červeného Moře, Egypet",
+    "emailLabel": "Email",
+    "phoneLabel": "Telefon",
+    "whatsapp": "WhatsApp",
+    "followUs": "Sleduj Nás"
+  },
+  "booking": {
+    "title": "Rezervuj Svůj Pobyt",
+    "comingSoon": "Otevření Q3 2027",
+    "subtitle": "Přímá rezervace brzy. Bud prvním na seznamu na časné ceny.",
+    "emailPlaceholder": "Zadej svůj email pro časný přístup",
+    "notify": "Upozorni Mne",
+    "thankYou": "Děkujeme! Skontaktujeme tě s exkluzivními časnými nabídkami.",
+    "checkIn": "Check-in",
+    "checkOut": "Check-out",
+    "guests": "Hosté",
+    "search": "Hledat"
+  },
+  "footer": {
+    "tagline": "Žij chytře u moře.",
+    "explore": "Prozkoumat",
+    "company": "Společnost",
+    "legal": "Právní",
+    "privacy": "Zásady Ochrany Soukromí",
+    "terms": "Podmínky Služby",
+    "cookies": "Zásady Cookies",
+    "copyright": "© {year} Bastet Hurghada. Všechna práva vyhrazena.",
+    "newsletter": "Zůstaň Aktualizovaný",
+    "newsletterText": "Dostávej spouštěcí aktualizace a časné nabídky.",
+    "emailPlaceholder": "Tvůj email",
+    "subscribe": "Přihlásit Se"
+  },
+  "common": {
+    "readMore": "Přečtit Více",
+    "learnMore": "Dozvědět Se Více",
+    "viewAll": "Zobrazit Vše",
+    "backToTop": "Zpět na Vrchol",
+    "loading": "Načítání...",
+    "openingDate": "Otevření Q3 2027"
+  }
+}

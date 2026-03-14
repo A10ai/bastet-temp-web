@@ -1,0 +1,290 @@
+{
+  "meta": {
+    "title": "Bastet Hurghada — Aparthotel Inteligentny Zasilany AI nad Morzem Czerwonym",
+    "description": "Pierwszy inteligentny aparthotel zasilany AI nad Morzem Czerwonym. 270 w pełni wyposażonych apartamentów z inteligentnymi technologiami, bar na dachu, basen, spa i przestrzenie coworkingowe. Kilka kroków od Promenady Mamsha."
+  },
+  "nav": {
+    "apartments": "Apartamenty",
+    "facilities": "Udogodnienia",
+    "smartHotel": "Hotel Inteligentny",
+    "location": "Lokalizacja",
+    "digitalNomads": "Nomadzi Cyfrowi",
+    "blog": "Blog",
+    "about": "O Nas",
+    "contact": "Kontakt",
+    "bookNow": "Zarezerwuj Teraz"
+  },
+  "hero": {
+    "tagline": "Żyj inteligentnie nad morzem.",
+    "subtitle": "Pierwszy inteligentny aparthotel zasilany AI nad Morzem Czerwonym. Twój dom w Hurgadzie — ale bardziej inteligentny, łatwiejszy i bardziej połączony niż kiedykolwiek.",
+    "cta": "Odkryj Apartamenty",
+    "ctaSecondary": "Obejrz Historię"
+  },
+  "home": {
+    "conceptTitle": "Nowy sposób na pobyt w Hurgadzie",
+    "conceptText": "Bastet to doskonała rzecz pośrodku. Nie kompleks resort all-inclusive. Nie prosta wynajęcia. W pełni wyposażony apartament z serwisem hotelowym, inteligentną technologią i barem na dachu ze zachodami słońca nad Morzem Czerwonym.",
+    "apartmentsTitle": "Twój apartament, twoje zasady",
+    "apartmentsSubtitle": "Każda jednostka wyposażona w pełną kuchnię, inteligentną klimatyzację, wejście bez klucza i prywatny balkon. Przygotuj śniadanie w piżamie lub zjedz kolację na naszej tarasie-restauracji. Ty decydujesz.",
+    "studio": "Studio",
+    "studioDesc": "35 mkw inteligentnego zamieszkania z mini kuchnią, balkonem i wszystkim czego potrzebujesz.",
+    "oneBed": "Jedna Sypialnia",
+    "oneBedDesc": "70 mkw z oddzielnym salonem — idealne dla par i dłuższych pobytów.",
+    "twoBed": "Dwie Sypialnie",
+    "twoBedDesc": "90 mkw przestrzeni rodzinnej z dwiema sypialniami i pralką w apartamencie.",
+    "penthouse": "Penthouse",
+    "penthouseDesc": "150 mkw z prywatnym basenem na dachu i panoramicznym widokiem na Morze Czerwone.",
+    "viewAll": "Wyświetl Wszystkie Apartamenty",
+    "smartTitle": "AI, którego nie zauważasz — aż go zauważysz",
+    "smartSubtitle": "Technologia Bastet działa niewidocznie. Twoje drzwi odblokowują się z twojego telefonu. Twój pokój uczy się twojej temperatury. Asystent AI mówi w twoim języku 24/7.",
+    "smartKeyless": "Wejście Bez Klucza",
+    "smartKeylessDesc": "Odblokowaj telefonem. Brak kolejek, brak plastikowych kart.",
+    "smartClimate": "Inteligentna Klimatyzacja",
+    "smartClimateDesc": "Twój pokój uczy się twoich preferencji automatycznie.",
+    "smartConcierge": "Asystent AI",
+    "smartConciergeDesc": "Pytaj przez WhatsApp lub aplikację. Wielojęzyczny, natychmiastowy.",
+    "smartCheckin": "Automatycyna Check-in",
+    "smartCheckinDesc": "Kioski samoobsługowe. Przybądź o dowolnej porze, idź prosto do pokoju.",
+    "learnMore": "Odkryj Hotel Inteligentny",
+    "facilitiesTitle": "Więcej niż miejsce do spania",
+    "facilitiesSubtitle": "Basen, bar na dachu, restauracja, spa, siłownia, coworking — każda przestrzeń do życia, nie tylko do pobytu.",
+    "pool": "Basen i Pokład Słoneczny",
+    "poolDesc": "Główny basen z leżakami i obsługą przy basenie.",
+    "restaurant": "The Terrace",
+    "restaurantDesc": "Kuchnia śródziemnomorsko-egipska, gotowanie na żywo, taras przy basenie.",
+    "rooftop": "Lounge na Dachu",
+    "rooftopDesc": "Koktajle o zachodzie słońca, widok na morze, drink sygnaturowe, DJ na żywo w weekendy.",
+    "spa": "Spa i Wellness",
+    "spaDesc": "Pokoje zabiegowe, hamam, sauna, kryty basen, studio jogi.",
+    "gym": "Centrum Fitness",
+    "gymDesc": "Siłownia 300 mkw z kardiologie, siłą i wolnymi ciężarami. Bezpłatnie dla wszystkich gości.",
+    "coworking": "Coworking",
+    "coworkingDesc": "Ergonomiczne biurka, szybki Wi-Fi, gniazda elektryczne. Zbudowane do pracy zdalnej.",
+    "viewFacilities": "Eksploruj Udogodnienia",
+    "locationTitle": "Kilka kroków od morza, minuty od wszędzie",
+    "locationSubtitle": "Bastet znajduje się w dzielnicy Kawthar Hurgady — kilka kroków od Promenady Mamsha, minuty od lotniska, o spacer od ośrodków nurkowych, restauracji i nocnego życia.",
+    "locationAirport": "Minuty od lotniska",
+    "locationMamsha": "Kilka kroków od Promenady Mamsha",
+    "locationDiving": "Spacer od ośrodków nurkowych",
+    "locationSunshine": "3.500+ godzin słonecznych rocznie",
+    "exploreLocation": "Eksploruj Lokalizację",
+    "sustainTitle": "Szacunek dla Morza Czerwonego",
+    "sustainSubtitle": "Zasilane energią słoneczną. Bez plastiku. Certyfikowane zielone. Bastet jest zbudowany dla podróżników, którzy dbają o przyszłość Morza Czerwonego.",
+    "sustainSolar": "Energia Słoneczna",
+    "sustainSolarDesc": "System PV na dachu generujący 20–35% energii elektrycznej hotelu.",
+    "sustainPlastic": "Zero Plastiku Jednorazowego",
+    "sustainPlasticDesc": "Dyspensery wielorazowe, zrównoważone opakowanie, brak plastikowych butelek.",
+    "sustainEnergy": "Inteligentna Energia",
+    "sustainEnergyDesc": "AI zmniejsza zużycie energii o 35–50% w porównaniu z konwencjonalnymi hotelami.",
+    "sustainGreen": "Certyfikacja Zielona",
+    "sustainGreenDesc": "Dąży do certyfikacji EDGE od IFC/Banku Światowego.",
+    "ctaTitle": "Bądź pierwszym, który doświadczy Bastet",
+    "ctaSubtitle": "Otwarcie Q3 2027. Zarejestruj się, aby uzyskać wczesne ceny i ekskluzywne oferty uruchomienia.",
+    "ctaPlaceholder": "Wpisz swój email",
+    "ctaButton": "Powiadom Mnie",
+    "ctaDisclaimer": "Bez spamu. Tylko aktualizacje uruchomienia i dostęp do wczesnych rezerwacji."
+  },
+  "apartments": {
+    "title": "Apartamenty",
+    "subtitle": "Każda jednostka wyposażona w pełną kuchnię — ponieważ wolność oznacza wybór. Gotuj, jedz poza, pracuj lub nic nie rób. To twój wybór.",
+    "everyApartment": "W każdym apartamencie",
+    "features": {
+      "kitchen": "Pełna mini kuchnia ze zmywarką",
+      "smartLock": "Inteligentny zamek — wejście bez klucza przez telefon",
+      "climate": "Inteligentna klimatyzacja, która uczy się twoich preferencji",
+      "tv": "Smart TV z aplikacjami streamingowymi",
+      "wifi": "Wi-Fi o wysokiej prędkości na poziomie przedsiębiorstwa",
+      "balcony": "Prywatny balkon lub taras"
+    },
+    "from": "Od",
+    "perNight": "/noc",
+    "sqm": "mkw",
+    "viewDetails": "Wyświetl Szczegóły",
+    "bookThis": "Zarezerwuj Ten Apartament"
+  },
+  "facilities": {
+    "title": "Udogodnienia i Doświadczenia",
+    "subtitle": "Bastet zaprojektowany jest jako cel podróży, nie jako obszar tranzytowy. Każda przestrzeń zaprasza cię do pozostania na chwilę."
+  },
+  "smartHotel": {
+    "title": "Hotel Inteligentny",
+    "subtitle": "Bastet to nie hotel robot. AI jest niewidoczny. Po prostu zauważasz, że wszystko działa lepiej, szybciej i bardziej osobiście niż jesteś przyzwyczajony.",
+    "howItWorks": "Jak to działa",
+    "keyless": {
+      "title": "Inteligentne Wejście Bez Klucza",
+      "description": "Odblokowaj swój apartament telefonem. Brak kolejki przy check-in, brak plastikowej karty, brak czekania. Idź prosto z lotniska do pokoju."
+    },
+    "checkin": {
+      "title": "Automatyczna Check-in",
+      "description": "Kioski samoobsługowe w holu — przybądź o dowolnej porze, zeskanuj ID, uzyskaj pokój. 24/7, nie jest potrzebna recepcja."
+    },
+    "concierge": {
+      "title": "Asystent AI",
+      "description": "Pytaj przez WhatsApp, aplikację Bastet lub ekran w holu. Rezerwacje restauracji, nurkowanie, transfery lotniska, porady lokalnych — wielojęzyczne i natychmiastowe."
+    },
+    "climate": {
+      "title": "Inteligentna Klimatyzacja i Oświetlenie",
+      "description": "Twój pokój uczy się twoich preferencji. Światła ściemniają się automatycznie w nocy. Klimatyzacja dostosowuje się, gdy wychodzisz. Obudź się w idealnej temperaturze."
+    },
+    "app": {
+      "title": "Wszystko Przez Aplikację",
+      "description": "Zamawiaj jedzenie, rezerwuj zabiegi spa, żądaj serwisu pokojowego, kontroluj pokój — wszystko z aplikacji Bastet na telefonie."
+    },
+    "pricing": {
+      "title": "Inteligentne Ceny",
+      "description": "Dynamiczna wycena oparta na AI oznacza, że zawsze uzyskujesz najlepszą cenę za okres popytu — a wcześni rezerwujący czerpią korzyści z lepszych ofert."
+    }
+  },
+  "sustainability": {
+    "title": "Zrównoważony Rozwój",
+    "subtitle": "Szacunek dla Morza Czerwonego",
+    "intro": "Zrównoważony rozwój w Bastet nie jest uzupełnieniem marketingowym — jest wbudowany w budynek i operacje od pierwszego dnia.",
+    "solar": {
+      "title": "Energia Słoneczna",
+      "stat": "20–35%",
+      "description": "elektryczności hotelu generowanej przez system PV na naszym dachu, zasilany 3500+ godzinami słonecznych godzin Morza Czerwonego rocznie."
+    },
+    "energy": {
+      "title": "Inteligentne Zarządzanie Energią",
+      "stat": "35–50%",
+      "description": "redukcja zużycia energii w porównaniu z konwencjonalnymi hotelami, napędzana optymalizacją klimatyzacji i oświetlenia opartą na AI."
+    },
+    "plastic": {
+      "title": "Zero Plastiku Jednorazowego",
+      "description": "Dyspensery wielorazowe w każdym pokoju. Zrównoważone opakowanie wszędzie. Brak plastikowych butelek, brak słomek, brak odpadów."
+    },
+    "food": {
+      "title": "Kompilacja Odpadów Spożywczych",
+      "description": "Odpady restauracji kompostowane i używane do озеленения nieruchomości. Zamykanie pętli na wybrzeżu Morza Czerwonego."
+    },
+    "ev": {
+      "title": "Ładowanie Pojazdów Elektrycznych",
+      "stat": "8–12",
+      "description": "stacje ładujące pojazdy elektryczne w krytym parkingu — gotowe na przyszłość transportu."
+    },
+    "certification": {
+      "title": "Certyfikacja Zielonego Budynku",
+      "description": "Ubiega się o certyfikację EDGE od IFC/Banku Światowego — światowy standard dla budynków efektywnych energetycznie."
+    },
+    "water": {
+      "title": "Oszczędzanie Wody",
+      "description": "Inteligentne wykrywanie wycieków, armatury niskoprzepływowe, recykling wody z basenu. Każda kropla ma znaczenie na wybrzeżu Morza Czerwonego."
+    }
+  },
+  "digitalNomads": {
+    "title": "Nomadzi Cyfrowi",
+    "headline": "Pracuj z Morza Czerwonego",
+    "subtitle": "Szybki Wi-Fi, przestrzenie coworkingowe, kuchnia do gotowania i rafy koralowe do nurkowania po pracy. Bastet jest zbudowany dla ludzi, którzy żyją i pracują z dowolnego miejsca.",
+    "whyBastet": "Dlaczego nomadzi wybierają Bastet",
+    "wifi": "Wi-Fi na Poziomie Przedsiębiorstwa",
+    "wifiDesc": "Nie hotel Wi-Fi — prawdziwy, szybki, niezawodny internet zbudowany do wideozwonków i przesyłania.",
+    "coworking": "Przestrzenie Coworkingowe",
+    "coworkingDesc": "Ergonomiczne biurka, gniazda elektryczne, ładowanie USB, strefy ciszy. Nie przerobiony hol.",
+    "kitchen": "Twoja Własna Kuchnia",
+    "kitchenDesc": "Gotuj własne posiłki, oszczędzaj pieniądze, jedz zdrowo. Każdy apartament ma pełną mini kuchnię.",
+    "monthly": "Ceny Miesięczne",
+    "monthlyDesc": "Od ~35$/noc dla długich pobytów. Jedyna profesjonalnie zarządzana opcja na długi pobyt w Hurgadzie.",
+    "community": "Społeczność i Styl Życia",
+    "communityDesc": "Basen, bar na dachu, siłownia, restauracja — wbudowane życie społeczne bez izolacji wynajętego apartamentu.",
+    "diving": "Nurkuj Po Pracy",
+    "divingDesc": "Rafy koralowe światowej klasy minuty od hotelu. Standup rano, nurkowanie po południu. To życie cyfrowego nomady nad Morzem Czerwonym.",
+    "typicalDay": "Typowy Dzień w Bastet",
+    "morning": "Poranek",
+    "morningDesc": "Obudź się, zrób kawę w kuchni, pracuj z balkonu lub przestrzeni coworkingowej.",
+    "midday": "Środek Dnia",
+    "middayDesc": "Lunch w The Terrace lub szybko coś przygotuj. Zanurz się w basenie między spotkaniami.",
+    "afternoon": "Popołudnie",
+    "afternoonDesc": "Zamknij laptop. Weź swój sprzęt. Rafa jest piętnaście minut dalej.",
+    "evening": "Wieczór",
+    "eveningDesc": "Koktajle o zachodzie słońca na dachu. Kolacja w The Terrace. Planuj nurkowanie jutro."
+  },
+  "location": {
+    "title": "Lokalizacja",
+    "subtitle": "Kilka kroków od morza, minuty od wszędzie",
+    "intro": "Bastet znajduje się w dzielnicy Kawthar Hurgady — głównym korytarzu turystycznym miasta, gdzie promenada spotyka się z rafą.",
+    "mamsha": "Promenada Mamsha",
+    "mamshaDesc": "Główna promenada nad wodą Hurgady z restauracjami, sklepami i dostępem do plaży — dosłownie kilka kroków od twojej drzwi.",
+    "airport": "Lotnisko Hurgady",
+    "airportDesc": "Minuty od Międzynarodowego Lotniska Hurgady. Nie jest potrzebny transfer, krótki transfer. Loty bezpośrednie ze wszystkich głównych miast europejskich.",
+    "diving": "Nurkowanie i Życie Morskie",
+    "divingDesc": "Rafy koralowe światowej klasy i ośrodki nurkowe w odległości spaceru. Podwodny świat Morza Czerwonego u Twoich drzwi.",
+    "sunshine": "Słońce Przez Cały Rok",
+    "sunshineDesc": "3500+ godzin słonecznych rocznie — jedna z najsłoneczniejszych destynacji na Ziemi. Wystarczająco ciepło do plaży przez cały rok.",
+    "flights": "Bezpośrednie Loty Europejskie",
+    "flightsDesc": "Loty 3–5 godzin z Niemiec, UK, Włoch, Rosji, Polski, Czechii. Twój apartament nad Morzem Czerwonym jest bliżej niż myślisz.",
+    "hurghada": "O Hurgadzie",
+    "hurghadaText": "Hurgada przywitała ponad 15,8 miliona odwiedzających w Egipcie w 2024 roku, a rząd ma na celu 30 milionów do 2030. To nie wspinająca się destynacja — to ustalona, która właśnie otrzyma inteligentne ulepszenie."
+  },
+  "blog": {
+    "title": "Dziennik",
+    "subtitle": "Historie, przewodniki i porady od wewnątrz z wybrzeża Morza Czerwonego.",
+    "readMore": "Czytaj Dalej",
+    "backToBlog": "Wróć do Dziennika",
+    "comingSoon": "Już Wkrótce",
+    "comingSoonText": "Pracujemy nad przewodnikami, historiami i poradami od wewnątrz o Hurgadzie i Morzu Czerwonym. Wróć wkrótce."
+  },
+  "about": {
+    "title": "O Nas",
+    "subtitle": "Nazwany na cześć starożytnej egipskiej bogini domu, komfortu i ochrony",
+    "story": "Historia Bastet",
+    "storyP1": "Bastet Hurghada to pierwszy inteligentny aparthotel zasilany AI nad Morzem Czerwonym — nowa kategoria zakwaterowania, która wcześniej nie istniała.",
+    "storyP2": "Łączymy przestrzeń i niezależność w pełni wyposażonego apartamentu z serwisem, technologią i stylem życia luksusowego hotelu, wszystko napędzane sztuczną inteligencją.",
+    "storyP3": "Nazwany na cześć starożytnej egipskiej bogini domu, komfortu i ochrony, Bastet reprezentuje filozofię: twój pobyt powinien czuć się jak dom, ale bardziej inteligentny, łatwiejszy i bardziej połączony niż kiedykolwiek.",
+    "philosophy": "Nasza Filozofia",
+    "philosophyP1": "Nie jesteśmy kompleksem resort all-inclusive. Nie jesteśmy prostym Airbnb. Jesteśmy doskonałym wyborem, na który czekali nowoczesni podróżnicy — i jesteśmy pierwsi na świecie, którzy go dostarczamy z AI w rdzeniu.",
+    "numbers": "W Liczbach",
+    "units": "Inteligentne Apartamenty",
+    "sqm": "Całkowita Powierzchnia Budynku",
+    "sunshine": "Godziny Słoneczne/Rok",
+    "techSystems": "Systemy AI"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Pytania, partnerstwo, lub po prostu chcesz powiedzieć cześć? Chętnie się od ciebie dowiemy.",
+    "getInTouch": "Skontaktuj się",
+    "name": "Imię",
+    "email": "Email",
+    "subject": "Temat",
+    "message": "Wiadomość",
+    "send": "Wyślij Wiadomość",
+    "info": "Informacje Kontaktowe",
+    "address": "Dzielnica Kawthar, Hurgada, Gouvernatorat Morza Czerwonego, Egipt",
+    "emailLabel": "Email",
+    "phoneLabel": "Telefon",
+    "whatsapp": "WhatsApp",
+    "followUs": "Śledź nas"
+  },
+  "booking": {
+    "title": "Zarezerwuj Swój Pobyt",
+    "comingSoon": "Otwarcie Q3 2027",
+    "subtitle": "Bezpośrednia rezerwacja wkrótce. Bądź pierwszym na liście na wczesne ceny.",
+    "emailPlaceholder": "Wpisz swój email, aby uzyskać wczesny dostęp",
+    "notify": "Powiadom Mnie",
+    "thankYou": "Dziękuję! Skontaktujemy się z tobą z ekskluzywnymi wczesnymi ofertami.",
+    "checkIn": "Check-in",
+    "checkOut": "Check-out",
+    "guests": "Goście",
+    "search": "Szukaj"
+  },
+  "footer": {
+    "tagline": "Żyj inteligentnie nad morzem.",
+    "explore": "Eksploruj",
+    "company": "Firma",
+    "legal": "Prawne",
+    "privacy": "Polityka Prywatności",
+    "terms": "Warunki Usługi",
+    "cookies": "Polityka Plików Cookie",
+    "copyright": "© {year} Bastet Hurghada. Wszystkie prawa zastrzeżone.",
+    "newsletter": "Bądź Na Bieżąco",
+    "newsletterText": "Otrzymuj aktualizacje uruchomienia i wczesne oferty.",
+    "emailPlaceholder": "Twój email",
+    "subscribe": "Subskrybuj"
+  },
+  "common": {
+    "readMore": "Czytaj Dalej",
+    "learnMore": "Dowiedz się Więcej",
+    "viewAll": "Wyświetl Wszystko",
+    "backToTop": "Wróć do Góry",
+    "loading": "Ładowanie...",
+    "openingDate": "Otwarcie Q3 2027"
+  }
+}

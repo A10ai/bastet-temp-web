@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Brand Design Tokens */
+:root {
+  --color-navy: #0C1B2A;
+  --color-gold: #C9975B;
+  --color-sand: #F5F0E8;
+  --color-cream: #FFFDF8;
+  --color-sage: #7A9E7E;
+  --color-coral: #E8734A;
+  --color-charcoal: #2D2D2D;
+}
+
+/* Base Styles */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-bastet-cream text-bastet-charcoal font-body leading-relaxed;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  @apply font-heading font-serif;
+  letter-spacing: -0.5px;
+}
+
+h1 {
+  @apply text-4xl md:text-5xl lg:text-6xl font-bold;
+}
+
+h2 {
+  @apply text-3xl md:text-4xl lg:text-5xl font-bold;
+}
+
+h3 {
+  @apply text-2xl md:text-3xl font-semibold;
+}
+
+h4 {
+  @apply text-xl md:text-2xl font-semibold;
+}
+
+h5 {
+  @apply text-lg md:text-xl font-semibold;
+}
+
+h6 {
+  @apply text-base md:text-lg font-semibold;
+}
+
+p {
+  @apply text-base leading-relaxed;
+}
+
+/* Links */
+a {
+  @apply transition-colors duration-200;
+}
+
+a:not(.no-hover):hover {
+  @apply text-bastet-gold;
+}
+
+/* Buttons */
+button {
+  @apply transition-all duration-200;
+}
+
+button:disabled {
+  @apply opacity-50 cursor-not-allowed;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-bastet-sand;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-bastet-gold rounded-lg;
+  background-color: var(--color-gold);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-bastet-navy;
+  background-color: var(--color-navy);
+}
+
+/* Firefox Scrollbar */
+* {
+  scrollbar-color: var(--color-gold) var(--color-sand);
+  scrollbar-width: thin;
+}
+
+/* Smooth transitions */
+* {
+  @apply transition-colors duration-200;
+}
+
+/* Focus Styles */
+:focus-visible {
+  @apply outline-none ring-2 ring-bastet-gold ring-offset-2;
+}
+
+/* Selection */
+::selection {
+  @apply bg-bastet-gold text-bastet-navy;
+}
+
+/* Utility Classes */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* Container */
+@layer components {
+  .container {
+    @apply mx-auto px-4 md:px-6 lg:px-8;
+  }
+
+  .section-padding {
+    @apply py-12 md:py-16 lg:py-24;
+  }
+
+  .gradient-brand {
+    background: linear-gradient(135deg, var(--color-navy) 0%, var(--color-charcoal) 100%);
+  }
+
+  .gradient-warm {
+    background: linear-gradient(135deg, var(--color-gold) 0%, var(--color-coral) 100%);
+  }
+
+  /* CTA Button Styles */
+  .btn-primary {
+    @apply px-6 py-3 bg-bastet-gold text-bastet-navy font-semibold rounded-lg hover:bg-bastet-coral transition-all duration-200 shadow-lg hover:shadow-xl hover:scale-105;
+  }
+
+  .btn-secondary {
+    @apply px-6 py-3 bg-transparent border-2 border-bastet-gold text-bastet-gold font-semibold rounded-lg hover:bg-bastet-gold hover:text-bastet-navy transition-all duration-200;
+  }
+
+  .btn-dark {
+    @apply px-6 py-3 bg-bastet-navy text-bastet-cream font-semibold rounded-lg hover:bg-bastet-charcoal transition-all duration-200;
+  }
+
+  .btn-nav {
+    @apply text-bastet-charcoal hover:text-bastet-gold transition-colors duration-200 font-medium;
+  }
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(10px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.slide-down {
+  animation: slideDown 0.3s ease-in-out;
+}
+
+.slide-up {
+  animation: slideUp 0.3s ease-in-out;
+}
+
+/* Responsive Typography */
+@media (max-width: 640px) {
+  h1 {
+    @apply text-2xl;
+  }
+
+  h2 {
+    @apply text-xl;
+  }
+
+  h3 {
+    @apply text-lg;
+  }
+}

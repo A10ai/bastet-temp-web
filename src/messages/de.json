@@ -1,0 +1,290 @@
+{
+  "meta": {
+    "title": "Bastet Hurghada — KI-betriebenes Smart-Apartment-Hotel am Roten Meer",
+    "description": "Das erste KI-betriebene Smart-Apartment-Hotel am Roten Meer. 270 vollständig ausgestattete Apartments mit intelligenter Technologie, Rooftop-Bar, Pool, Spa und Co-Working. Direkt an der Mamsha Promenade."
+  },
+  "nav": {
+    "apartments": "Apartments",
+    "facilities": "Ausstattung",
+    "smartHotel": "Smart Hotel",
+    "location": "Lage",
+    "digitalNomads": "Digital Nomads",
+    "blog": "Blog",
+    "about": "Über Bastet",
+    "contact": "Kontakt",
+    "bookNow": "Jetzt Buchen"
+  },
+  "hero": {
+    "tagline": "Lebe intelligent am Meer.",
+    "subtitle": "Das erste KI-betriebene Smart-Apartment-Hotel am Roten Meer. Dein Zuhause in Hurghada — aber intelligenter, einfacher und vernetzter als je zuvor.",
+    "cta": "Apartments Erkunden",
+    "ctaSecondary": "Die Geschichte Ansehen"
+  },
+  "home": {
+    "conceptTitle": "Eine neue Art, in Hurghada zu übernachten",
+    "conceptText": "Bastet ist die perfekte Lösung dazwischen. Weder All-inclusive-Resort noch einfaches Mietapartment. Ein vollständig ausgestattetes Apartment mit Hotelservice, intelligenter Technologie und einer Rooftop-Bar mit Sonnenuntergängen über dem Roten Meer.",
+    "apartmentsTitle": "Dein Apartment, deine Regeln",
+    "apartmentsSubtitle": "Jede Einheit kommt mit einer vollständigen Küche, intelligenter Klimaanlage, schlüssellosen Eingängen und privatem Balkon. Frühstück im Pyjama in deiner Küche oder Abendessen auf unserer Terrasse-Restaurant. Du bestimmst.",
+    "studio": "Studio",
+    "studioDesc": "35 qm intelligentes Wohnen mit Kitchenette, Balkon und allem, was du brauchst.",
+    "oneBed": "Ein Schlafzimmer",
+    "oneBedDesc": "70 qm mit separatem Wohnbereich — perfekt für Paare und längere Aufenthalte.",
+    "twoBed": "Zwei Schlafzimmer",
+    "twoBedDesc": "90 qm Familienraum mit zwei Schlafzimmern und Waschmaschine im Apartment.",
+    "penthouse": "Penthouse",
+    "penthouseDesc": "150 qm mit privatem Dach-Pool und Panorama-Blick auf das Rote Meer.",
+    "viewAll": "Alle Apartments Ansehen",
+    "smartTitle": "KI, die du nicht bemerkst — bis du es tust",
+    "smartSubtitle": "Die Technologie von Bastet funktioniert unsichtbar. Deine Tür öffnet sich von deinem Telefon. Dein Zimmer lernt deine bevorzugte Temperatur. Der KI-Concierge spricht deine Sprache, 24/7.",
+    "smartKeyless": "Schlüsselloses Entrée",
+    "smartKeylessDesc": "Entriegele mit deinem Telefon. Keine Warteschlange, keine Plastikkarte.",
+    "smartClimate": "Intelligente Klimaanlage",
+    "smartClimateDesc": "Dein Zimmer lernt deine Vorlieben automatisch.",
+    "smartConcierge": "KI-Concierge",
+    "smartConciergeDesc": "Frag über WhatsApp oder die App. Mehrsprachig, sofort verfügbar.",
+    "smartCheckin": "Automatisierte Check-in",
+    "smartCheckinDesc": "Self-Service-Kiosks. Komm zu jeder Uhrzeit an, geh direkt zu deinem Zimmer.",
+    "learnMore": "Smart Hotel Entdecken",
+    "facilitiesTitle": "Mehr als nur ein Ort zum Schlafen",
+    "facilitiesSubtitle": "Pool, Rooftop-Bar, Restaurant, Spa, Fitnessstudio, Co-Working — jeder Raum zum Leben, nicht nur zum Übernachten.",
+    "pool": "Pool & Sonnendeck",
+    "poolDesc": "Hauptpool mit Liegen und Poolside-Service.",
+    "restaurant": "The Terrace",
+    "restaurantDesc": "Mediterranea-ägyptische Küche, Live-Kochstation, Terrassenrestaurant am Pool.",
+    "rooftop": "Rooftop-Lounge",
+    "rooftopDesc": "Sonnenuntergangs-Cocktails, Meerblick, Signature-Drinks, Live-DJ an Wochenenden.",
+    "spa": "Spa & Wellness",
+    "spaDesc": "Behandlungsräume, Hammam, Sauna, Innenbad, Yogastudio.",
+    "gym": "Fitnesscenter",
+    "gymDesc": "300 qm Fitnessstudio mit Cardio, Kraft- und Freihanteln. Kostenlos für alle Gäste.",
+    "coworking": "Co-Working",
+    "coworkingDesc": "Ergonomische Schreibtische, schnelles WLAN, Steckdosen. Für Remote-Arbeit gemacht.",
+    "viewFacilities": "Ausstattung Erkunden",
+    "locationTitle": "Schritte vom Meer, Minuten von überall",
+    "locationSubtitle": "Bastet liegt im Kawthar-Viertel von Hurghada — Schritte von der Mamsha Promenade, Minuten vom Flughafen, zu Fuß zu Tauchzentren, Restaurants und Nachtleben.",
+    "locationAirport": "Minuten vom Flughafen entfernt",
+    "locationMamsha": "Schritte von der Mamsha Promenade",
+    "locationDiving": "Zu Fuß zu Tauchzentren",
+    "locationSunshine": "3.500+ Sonnenstunden pro Jahr",
+    "exploreLocation": "Lage Erkunden",
+    "sustainTitle": "Respekt vor dem Roten Meer",
+    "sustainSubtitle": "Solar-betrieben. Plastikfrei. Grün-zertifiziert. Bastet wird für Reisende gebaut, die die Zukunft des Roten Meeres kümmert.",
+    "sustainSolar": "Solarenergie",
+    "sustainSolarDesc": "Dachanlage mit PV-System, das 20–35% des Hotelstroms erzeugt.",
+    "sustainPlastic": "Null Einwegplastik",
+    "sustainPlasticDesc": "Nachfüllbare Spender, nachhaltige Verpackung, keine Plastikflaschen.",
+    "sustainEnergy": "Intelligente Energie",
+    "sustainEnergyDesc": "KI reduziert Energieverbrauch um 35–50% gegenüber konventionellen Hotels.",
+    "sustainGreen": "Grün-zertifiziert",
+    "sustainGreenDesc": "Zertifizierung nach EDGE von IFC/Weltbank angestrebt.",
+    "ctaTitle": "Sei der Erste, der Bastet erlebt",
+    "ctaSubtitle": "Eröffnung Q3 2027. Melde dich für Early-Bird-Tarife und exklusive Launch-Angebote an.",
+    "ctaPlaceholder": "Gib deine E-Mail ein",
+    "ctaButton": "Benachrichtige Mich",
+    "ctaDisclaimer": "Kein Spam. Nur Launch-Updates und Early-Booking-Zugang."
+  },
+  "apartments": {
+    "title": "Apartments",
+    "subtitle": "Jede Einheit kommt vollständig ausgestattet mit einer Küche — weil Freiheit Wahl bedeutet. Koche, essen Sie auswärts, arbeite oder tue nichts. Es ist deine Entscheidung.",
+    "everyApartment": "In jedem Apartment",
+    "features": {
+      "kitchen": "Vollständige Kitchenette mit Spülmaschine",
+      "smartLock": "Intelligentes Schloss — schlüssellose Eingänge via Telefon",
+      "climate": "Intelligente Klimaanlage, die deine Vorlieben lernt",
+      "tv": "Smart-TV mit Streaming-Apps",
+      "wifi": "Enterprise-Grade schnelles WLAN",
+      "balcony": "Privater Balkon oder Terrasse"
+    },
+    "from": "Von",
+    "perNight": "/Nacht",
+    "sqm": "qm",
+    "viewDetails": "Details Ansehen",
+    "bookThis": "Dieses Apartment Buchen"
+  },
+  "facilities": {
+    "title": "Ausstattung & Erlebnisse",
+    "subtitle": "Bastet wurde als Ziel konzipiert, nicht als Durchgangsbereich. Jeder Raum lädt dich ein, eine Weile zu bleiben."
+  },
+  "smartHotel": {
+    "title": "Das Smart Hotel",
+    "subtitle": "Bastet ist kein Roboter-Hotel. Die KI ist unsichtbar. Du merkst nur, dass alles besser, schneller und persönlicher funktioniert, als du es gewohnt bist.",
+    "howItWorks": "So funktioniert es",
+    "keyless": {
+      "title": "Intelligenter Schlüsselloser Zugang",
+      "description": "Entriegle dein Apartment mit deinem Telefon. Keine Warteschlange beim Check-in, keine Plastikkarte, keine Wartezeit. Geh direkt vom Flughafen zu deinem Zimmer."
+    },
+    "checkin": {
+      "title": "Automatisierter Check-in",
+      "description": "Self-Service-Kiosks in der Lobby — komme zu jeder Uhrzeit an, scanne deinen Ausweis, erhalte dein Zimmer. 24/7, kein Empfang erforderlich."
+    },
+    "concierge": {
+      "title": "KI-Concierge",
+      "description": "Frag über WhatsApp, die Bastet-App oder den Lobby-Bildschirm. Restaurantbuchungen, Tauchausflüge, Flughafentransfers, lokale Tipps — mehrsprachig und sofort verfügbar."
+    },
+    "climate": {
+      "title": "Intelligente Klimaanlage & Beleuchtung",
+      "description": "Dein Zimmer lernt deine Vorlieben. Lichter dimmen automatisch nachts. Klimaanlage stellt sich an, wenn du gehst. Wach auf bei deiner idealen Temperatur."
+    },
+    "app": {
+      "title": "App-Basierte Alles",
+      "description": "Bestelle Essen, buche Spa-Behandlungen, fordere Zimmerservice an, steuere dein Zimmer — alles über die Bastet-App auf deinem Telefon."
+    },
+    "pricing": {
+      "title": "Intelligente Preisgestaltung",
+      "description": "KI-gesteuerte dynamische Preisgestaltung bedeutet, dass du immer den besten Preis für die Nachfragefähigkeit erhältst — und frühe Buchende profitieren von besseren Deals."
+    }
+  },
+  "sustainability": {
+    "title": "Nachhaltigkeit",
+    "subtitle": "Respekt vor dem Roten Meer",
+    "intro": "Nachhaltigkeit ist bei Bastet kein Marketing-Add-On — es ist von Tag eins in das Gebäude und die Operationen eingebaut.",
+    "solar": {
+      "title": "Solarenergie",
+      "stat": "20–35%",
+      "description": "des Hotelstroms wird von unserer Dach-PV-Anlage erzeugt, angetrieben von 3.500+ Stunden Rotes-Meer-Sonne pro Jahr."
+    },
+    "energy": {
+      "title": "Intelligentes Energiemanagement",
+      "stat": "35–50%",
+      "description": "Reduktion des Energieverbrauchs gegenüber konventionellen Hotels, angetrieben durch KI-gesteuerte Klimaanlage und Beleuchtungsoptimierung."
+    },
+    "plastic": {
+      "title": "Null Einwegplastik",
+      "description": "Nachfüllbare Spender in jedem Zimmer. Nachhaltige Verpackung überall. Keine Plastikflaschen, keine Strohhalme, kein Müll."
+    },
+    "food": {
+      "title": "Kompostierung von Speiseresten",
+      "description": "Restaurantabfälle kompostiert und für die Landschaftsgestaltung der Grundstücke verwendet. Den Kreislauf am Roten Meer schließen."
+    },
+    "ev": {
+      "title": "EV-Laden",
+      "stat": "8–12",
+      "description": "Elektrofahrzeug-Ladestationen in überdachtem Parkplatz — bereit für die Zukunft des Verkehrs."
+    },
+    "certification": {
+      "title": "Grüne Gebäudezertifizierung",
+      "description": "Zertifizierung nach EDGE von IFC/Weltbank angestrebt — der globale Standard für ressourceneffiziente Gebäude."
+    },
+    "water": {
+      "title": "Wassereinsparung",
+      "description": "Intelligente Leckageerkennung, wassersparende Armaturen, Poolwasser-Recycling. Jeder Tropfen zählt an der Roten-Meer-Küste."
+    }
+  },
+  "digitalNomads": {
+    "title": "Digital Nomads",
+    "headline": "Arbeite vom Roten Meer",
+    "subtitle": "Schnelles WLAN, Co-Working-Räume, eine Küche zum Kochen und das Korallenriff zum Tauchen nach der Arbeit. Bastet wird für Menschen gebaut, die überall leben und arbeiten.",
+    "whyBastet": "Warum Nomaden Bastet wählen",
+    "wifi": "Enterprise-Grade WLAN",
+    "wifiDesc": "Nicht Hotel-WLAN — echtes, schnelles, zuverlässiges Internet für Videoanrufe und Uploads.",
+    "coworking": "Co-Working-Räume",
+    "coworkingDesc": "Ergonomische Schreibtische, Steckdosen, USB-Laden, ruhige Zonen. Nicht eine umgenutzte Lobby.",
+    "kitchen": "Deine Eigene Küche",
+    "kitchenDesc": "Koche deine eigenen Mahlzeiten, spare Geld, iss gesund. Jedes Apartment hat eine vollständige Kitchenette.",
+    "monthly": "Monatliche Tarife",
+    "monthlyDesc": "Von ca. 35$/Nacht für längere Aufenthalte. Die einzige professionell verwaltete Langzeitoption in Hurghada.",
+    "community": "Gemeinschaft & Lebensstil",
+    "communityDesc": "Pool, Rooftop-Bar, Fitnessstudio, Restaurant — ein eingebautes Sozialleben ohne die Isolation eines Mietapartments.",
+    "diving": "Tauche Nach der Arbeit",
+    "divingDesc": "Weltklasse-Korallenriffe nur wenige Minuten entfernt. Morgens Standup, nachmittags Tauchen. Das ist das Digital-Nomad-Leben am Roten Meer.",
+    "typicalDay": "Ein typischer Tag bei Bastet",
+    "morning": "Morgen",
+    "morningDesc": "Aufwachen, Kaffee in deiner Küche machen, vom Balkon oder Co-Working-Raum arbeiten.",
+    "midday": "Mittags",
+    "middayDesc": "Mittagessen in der Terrace oder schnell etwas kochen. Schwimmen im Pool zwischen Meetings.",
+    "afternoon": "Nachmittag",
+    "afternoonDesc": "Laptop zumachen. Taucherausrüstung greifen. Das Riff ist fünfzehn Minuten entfernt.",
+    "evening": "Abend",
+    "eveningDesc": "Sonnenuntergangs-Cocktails auf der Rooftop. Abendessen in der Terrace. Morgigen Tauchgang planen."
+  },
+  "location": {
+    "title": "Lage",
+    "subtitle": "Schritte vom Meer, Minuten von überall",
+    "intro": "Bastet liegt im Kawthar-Viertel von Hurghada — der Premier-Tourismus-Korridor der Stadt, wo die Promenade auf das Riff trifft.",
+    "mamsha": "Mamsha Promenade",
+    "mamshaDesc": "Hurghadás premier Uferpromenade mit Restaurants, Geschäften und Strandgang — buchstäblich Schritte von deiner Tür.",
+    "airport": "Flughafen Hurghada",
+    "airportDesc": "Minuten vom Flughafen Hurghada. Kein Transfer erforderlich, kurzer Transfer. Direktflüge von allen großen europäischen Städten.",
+    "diving": "Tauchen & Meeresleben",
+    "divingDesc": "Weltklasse-Korallenriffe und Tauchzentren zu Fuß erreichbar. Die Unterwasserwelt des Roten Meeres vor deiner Haustür.",
+    "sunshine": "Ganzjährige Sonne",
+    "sunshineDesc": "3.500+ Sonnenstunden pro Jahr — eines der sonnigsten Reiseziele der Erde. Warm genug für den Strand das ganze Jahr.",
+    "flights": "Direkte Europäische Flüge",
+    "flightsDesc": "3–5 Stunden Flüge von Deutschland, UK, Italien, Russland, Polen, Tschechischer Republik. Dein Rotes-Meer-Apartment ist näher als du denkst.",
+    "hurghada": "Über Hurghada",
+    "hurghadaText": "Hurghada begrüßte 2024 über 15,8 Millionen Besucher nach Ägypten, die Regierung zielt auf 30 Millionen bis 2030. Es ist kein aufstrebendes Ziel — es ist ein etabliertes, das gerade ein intelligentes Upgrade erhält."
+  },
+  "blog": {
+    "title": "Journal",
+    "subtitle": "Geschichten, Leitfäden und Insider-Tipps von der Roten-Meer-Küste.",
+    "readMore": "Mehr Lesen",
+    "backToBlog": "Zurück zu Journal",
+    "comingSoon": "Kommt Bald",
+    "comingSoonText": "Wir arbeiten an Leitfäden, Geschichten und Insider-Tipps über Hurghada und das Rote Meer. Komm bald wieder."
+  },
+  "about": {
+    "title": "Über Bastet",
+    "subtitle": "Benannt nach der alten ägyptischen Göttin des Hauses, Komforts und Schutzes",
+    "story": "Die Bastet-Geschichte",
+    "storyP1": "Bastet Hurghada ist das erste KI-betriebene Smart-Apartment-Hotel am Roten Meer — eine neue Kategorie von Unterkunft, die es vorher nicht gab.",
+    "storyP2": "Wir kombinieren den Raum und die Unabhängigkeit eines vollständig ausgestatteten Apartments mit dem Service, der Technologie und dem Lebensstil eines Premium-Hotels, alles angetrieben durch künstliche Intelligenz.",
+    "storyP3": "Benannt nach der alten ägyptischen Göttin des Hauses, Komforts und Schutzes, repräsentiert Bastet eine Philosophie: Dein Aufenthalt sollte sich wie zu Hause fühlen, aber intelligenter, einfacher und vernetzter als je zuvor.",
+    "philosophy": "Unsere Philosophie",
+    "philosophyP1": "Wir sind kein All-inclusive-Resort. Wir sind kein einfaches Airbnb. Wir sind die perfekte Lösung dazwischen, auf die moderne Reisende warten — und wir sind die Ersten auf der Welt, die es mit KI im Kern liefern.",
+    "numbers": "In Zahlen",
+    "units": "Smart-Apartments",
+    "sqm": "Gesamtgebäudefläche",
+    "sunshine": "Sonnenstunden/Jahr",
+    "techSystems": "KI-Systeme"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Fragen, Partnerschaften oder willst du einfach Hallo sagen? Wir würden dich gerne hören.",
+    "getInTouch": "In Kontakt Treten",
+    "name": "Name",
+    "email": "E-Mail",
+    "subject": "Betreff",
+    "message": "Nachricht",
+    "send": "Nachricht Senden",
+    "info": "Kontaktinformationen",
+    "address": "Kawthar-Viertel, Hurghada, Gouvernement Rotes Meer, Ägypten",
+    "emailLabel": "E-Mail",
+    "phoneLabel": "Telefon",
+    "whatsapp": "WhatsApp",
+    "followUs": "Folge Uns"
+  },
+  "booking": {
+    "title": "Buche deinen Aufenthalt",
+    "comingSoon": "Eröffnung Q3 2027",
+    "subtitle": "Direktbuchung kommt bald. Sei zuerst in der Reihe für Early-Bird-Tarife.",
+    "emailPlaceholder": "Gib deine E-Mail für frühen Zugang ein",
+    "notify": "Benachrichtige Mich",
+    "thankYou": "Danke! Wir werden dich mit exklusiven Early-Bird-Angeboten kontaktieren.",
+    "checkIn": "Check-in",
+    "checkOut": "Check-out",
+    "guests": "Gäste",
+    "search": "Suche"
+  },
+  "footer": {
+    "tagline": "Lebe intelligent am Meer.",
+    "explore": "Erkunden",
+    "company": "Unternehmen",
+    "legal": "Rechtlich",
+    "privacy": "Datenschutzrichtlinie",
+    "terms": "Nutzungsbedingungen",
+    "cookies": "Cookie-Richtlinie",
+    "copyright": "© {year} Bastet Hurghada. Alle Rechte vorbehalten.",
+    "newsletter": "Bleibe Auf dem Laufenden",
+    "newsletterText": "Erhalte Launch-Updates und Early-Bird-Angebote.",
+    "emailPlaceholder": "Deine E-Mail",
+    "subscribe": "Abonnieren"
+  },
+  "common": {
+    "readMore": "Mehr Lesen",
+    "learnMore": "Mehr Erfahren",
+    "viewAll": "Alles Ansehen",
+    "backToTop": "Nach Oben",
+    "loading": "Wird Geladen...",
+    "openingDate": "Eröffnung Q3 2027"
+  }
+}
