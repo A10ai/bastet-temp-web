@@ -2,9 +2,11 @@
 
 import { Link } from '@/lib/navigation';
 import { ChevronDown } from 'lucide-react';
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useCallback } from 'react';
 
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
+const heroImages = Array.from({ length: 9 }, (_, i) => `${basePath}/hero/${i + 1}.jpg`);
 
 type Props = {
   tagline: string;
@@ -14,47 +16,66 @@ type Props = {
 };
 
 export default function HeroSection({ tagline, subtitle, ctaPrimary, ctaSecondary }: Props) {
+  const [currentIndex, setCurrentIndex] = useState(0);
   const [scrollY, setScrollY] = useState(0);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      setScrollY(window.scrollY);
-    };
+  const nextSlide = useCallback(() => {
+    setCurrentIndex((prev) => (prev + 1) % heroImages.length);
+  }, []);
 
+  useEffect(() => {
+    const interval = setInterval(nextSlide, 5000);
+    return () => clearInterval(interval);
+  }, [nextSlide]);
+
+  useEffect(() => {
+    const handleScroll = () => setScrollY(window.scrollY);
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
   return (
     <div className="relative h-screen w-full overflow-hidden bg-bastet-navy">
-      {/* Background gradient overlay */}
-      <div
-        className="absolute inset-0 opacity-75"
-        style={{
-          background: `linear-gradient(180deg, rgba(12, 27, 42, 0.3) 0%, rgba(12, 27, 42, 0.8) 100%)`,
-          transform: `translateY(${scrollY * 0.5}px)`,
-        }}
-      />
+      {/* Slideshow Background */}
+      {heroImages.map((src, index) => (
+        <div
+          key={src}
+          className="absolute inset-0 transition-opacity duration-1000 ease-in-out"
+          style={{
+            opacity: index === currentIndex ? 1 : 0,
+            transform: `translateY(${scrollY * 0.3}px) scale(1.05)`,
+          }}
+        >
+          <img
+            src={src}
+            alt=""
+            className="w-full h-full object-cover"
+          />
+        </div>
+      ))}
+
+      {/* Dark overlay for text readability */}
+      <div className="absolute inset-0 bg-gradient-to-b from-bastet-navy/40 via-bastet-navy/30 to-bastet-navy/70" />
 
       {/* Content */}
-      <div className="relative h-full flex flex-col items-center justify-center text-center px-4 md:px-6">
+      <div className="relative h-full flex flex-col items-center justify-center text-center px-4 md:px-6 z-10">
         <div className="space-y-6 md:space-y-8 max-w-4xl">
           {/* Logo */}
           <div className="animate-fade-up">
             <img
               src={`${basePath}/logo-white.png`}
               alt="Bastet"
-              className="h-20 md:h-28 lg:h-32 w-auto mx-auto"
+              className="h-20 md:h-28 lg:h-32 w-auto mx-auto drop-shadow-lg"
             />
           </div>
 
           {/* Tagline */}
-          <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-display-xl font-display font-bold text-bastet-cream leading-tight animate-fade-up">
+          <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-display-xl font-display font-bold text-bastet-cream leading-tight animate-fade-up drop-shadow-lg">
             {tagline}
           </h1>
 
           {/* Subtitle */}
-          <p className="text-lg md:text-xl lg:text-2xl text-bastet-sand leading-relaxed max-w-3xl mx-auto animate-fade-up" style={{ animationDelay: '0.1s' }}>
+          <p className="text-lg md:text-xl lg:text-2xl text-bastet-sand leading-relaxed max-w-3xl mx-auto animate-fade-up drop-shadow-md" style={{ animationDelay: '0.1s' }}>
             {subtitle}
           </p>
 
@@ -70,8 +91,24 @@ export default function HeroSection({ tagline, subtitle, ctaPrimary, ctaSecondar
         </div>
       </div>
 
+      {/* Slide indicators */}
+      <div className="absolute bottom-20 left-1/2 -translate-x-1/2 flex gap-2 z-10">
+        {heroImages.map((_, index) => (
+          <button
+            key={index}
+            onClick={() => setCurrentIndex(index)}
+            className={`w-2 h-2 rounded-full transition-all duration-300 ${
+              index === currentIndex
+                ? 'bg-bastet-gold w-6'
+                : 'bg-white/50 hover:bg-white/80'
+            }`}
+            aria-label={`Go to slide ${index + 1}`}
+          />
+        ))}
+      </div>
+
       {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce z-10">
         <ChevronDown className="text-bastet-gold" size={32} />
       </div>
     </div>
