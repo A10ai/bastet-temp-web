@@ -1,18 +1,9 @@
-'use client';
+import { redirect } from 'next/navigation';
 
-import { useEffect } from 'react';
-import { useRouter } from 'next/navigation';
+export function generateStaticParams() {
+  return [];
+}
 
 export default function BlogPostPage() {
-  const router = useRouter();
-
-  useEffect(() => {
-    router.replace('../');
-  }, [router]);
-
-  return (
-    <div className="min-h-screen flex items-center justify-center bg-bastet-cream">
-      <p className="text-bastet-charcoal-light font-body">Redirecting to journal...</p>
-    </div>
-  );
+  redirect('../');
 }
