@@ -1,6 +1,7 @@
 'use client';
 
 import { Link } from '@/lib/navigation';
+import Image from 'next/image';
 import { ChevronDown } from 'lucide-react';
 import { useEffect, useState } from 'react';
 
@@ -37,6 +38,18 @@ export default function HeroSection({ tagline, subtitle, ctaPrimary, ctaSecondar
       {/* Content */}
       <div className="relative h-full flex flex-col items-center justify-center text-center px-4 md:px-6">
         <div className="space-y-6 md:space-y-8 max-w-4xl">
+          {/* Logo */}
+          <div className="animate-fade-up">
+            <Image
+              src="/logo-white.png"
+              alt="Bastet"
+              width={320}
+              height={126}
+              className="h-20 md:h-28 lg:h-32 w-auto mx-auto"
+              priority
+            />
+          </div>
+
           {/* Tagline */}
           <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-display-xl font-display font-bold text-bastet-cream leading-tight animate-fade-up">
             {tagline}

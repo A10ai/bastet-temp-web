@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
 import { Link } from '@/lib/navigation';
+import Image from 'next/image';
 import LanguageSwitcher from './LanguageSwitcher';
 import { Menu, X } from 'lucide-react';
 import { cn } from '@/lib/utils';
@@ -45,12 +46,14 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center">
-            <span className={cn(
-              'text-2xl md:text-3xl font-bold transition-colors duration-200',
-              isScrolled ? 'text-bastet-navy' : 'text-white'
-            )}>
-              Bastet
-            </span>
+            <Image
+              src={isScrolled ? '/logo-dark.png' : '/logo-white.png'}
+              alt="Bastet"
+              width={140}
+              height={55}
+              className="h-10 md:h-12 w-auto transition-opacity duration-200"
+              priority
+            />
           </Link>
 
           {/* Desktop Navigation Links */}
