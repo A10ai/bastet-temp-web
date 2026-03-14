@@ -3,8 +3,9 @@
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import Link from 'next/link';
-import Image from 'next/image';
 import { Instagram, Facebook, Music2, Youtube, Mail, ArrowRight } from 'lucide-react';
+
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
 import { cn } from '@/lib/utils';
 
 const Footer = () => {
@@ -108,11 +109,9 @@ const Footer = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 md:gap-12 mb-12">
             {/* Brand Column */}
             <div className="lg:col-span-1">
-              <Image
-                src="/logo-white.png"
+              <img
+                src={`${basePath}/logo-white.png`}
                 alt="Bastet"
-                width={160}
-                height={63}
                 className="h-12 w-auto mb-2"
               />
               <p className="text-bastet-sand text-sm leading-relaxed">

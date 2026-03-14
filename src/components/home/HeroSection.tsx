@@ -1,9 +1,10 @@
 'use client';
 
 import { Link } from '@/lib/navigation';
-import Image from 'next/image';
 import { ChevronDown } from 'lucide-react';
 import { useEffect, useState } from 'react';
+
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
 type Props = {
   tagline: string;
@@ -40,13 +41,10 @@ export default function HeroSection({ tagline, subtitle, ctaPrimary, ctaSecondar
         <div className="space-y-6 md:space-y-8 max-w-4xl">
           {/* Logo */}
           <div className="animate-fade-up">
-            <Image
-              src="/logo-white.png"
+            <img
+              src={`${basePath}/logo-white.png`}
               alt="Bastet"
-              width={320}
-              height={126}
               className="h-20 md:h-28 lg:h-32 w-auto mx-auto"
-              priority
             />
           </div>
 

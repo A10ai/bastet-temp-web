@@ -3,10 +3,11 @@
 import { useState, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
 import { Link } from '@/lib/navigation';
-import Image from 'next/image';
 import LanguageSwitcher from './LanguageSwitcher';
 import { Menu, X } from 'lucide-react';
 import { cn } from '@/lib/utils';
+
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
 const Navbar = () => {
   const t = useTranslations('nav');
@@ -46,13 +47,10 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center">
-            <Image
-              src={isScrolled ? '/logo-dark.png' : '/logo-white.png'}
+            <img
+              src={isScrolled ? `${basePath}/logo-dark.png` : `${basePath}/logo-white.png`}
               alt="Bastet"
-              width={140}
-              height={55}
               className="h-10 md:h-12 w-auto transition-opacity duration-200"
-              priority
             />
           </Link>
 
