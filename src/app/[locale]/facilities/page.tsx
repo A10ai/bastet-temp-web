@@ -6,6 +6,8 @@ import SectionHeader from '@/components/shared/SectionHeader';
 import { Waves, UtensilsCrossed, Wine, Flower2, Dumbbell, Laptop, ShoppingBag } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
 export default function FacilitiesPage() {
   const t = useTranslations('facilities');
   const tHome = useTranslations('home');
@@ -121,10 +123,11 @@ export default function FacilitiesPage() {
                       `bg-gradient-to-br ${facility.gradient}`,
                       !isLeft && 'md:col-start-2'
                     )}>
-                      <div className="absolute inset-0 opacity-20 group-hover:opacity-10 transition-opacity duration-300 bg-black" />
-                      <div className="absolute inset-0 flex items-center justify-center">
-                        <Icon className="text-white/40 group-hover:text-white/60 transition-colors duration-300" size={80} />
-                      </div>
+                      <img
+                      src={`${basePath}/images/facilities/${facility.id === 'pool-beach' ? 'pool' : facility.id === 'spa-wellness' ? 'spa' : facility.id}.jpg`}
+                      alt={facility.title}
+                      className="w-full h-full object-cover"
+                    />
                     </div>
 
                     {/* Content */}

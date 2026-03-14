@@ -6,6 +6,8 @@ import SectionHeader from '@/components/shared/SectionHeader';
 import { Sun, Zap, Droplets, Leaf, Award, Wind } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
 export default function SustainabilityPage() {
   const t = useTranslations('sustainability');
 
@@ -168,18 +170,18 @@ export default function SustainabilityPage() {
                       !isLeft && 'md:grid-flow-dense'
                     )}
                   >
-                    {/* Image Placeholder */}
+                    {/* Image */}
                     <div
                       className={cn(
                         'relative h-80 md:h-96 rounded-xl overflow-hidden shadow-lg',
-                        `bg-gradient-to-br ${feature.color}`,
                         !isLeft && 'md:col-start-2'
                       )}
                     >
-                      <div className="absolute inset-0 opacity-20 bg-black" />
-                      <div className="absolute inset-0 flex items-center justify-center">
-                        <Icon className="text-white/40" size={80} />
-                      </div>
+                    <img
+                      src={`${basePath}/images/sustainability/${['solar', 'energy', 'plastic', 'food', 'ev', 'certification', 'water'][idx]}.jpg`}
+                      alt={feature.title}
+                      className="w-full h-full object-cover"
+                    />
                     </div>
 
                     {/* Content */}

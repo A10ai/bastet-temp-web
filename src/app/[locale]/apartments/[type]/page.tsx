@@ -2,6 +2,8 @@ import { unstable_setRequestLocale } from 'next-intl/server';
 import { Link } from '@/lib/navigation';
 import { ChevronLeft } from 'lucide-react';
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
 async function loadAptMessages(locale: string) {
   const messages = (await import(`@/messages/${locale}.json`)).default;
   return messages.apartments || {};
@@ -192,10 +194,13 @@ export default async function ApartmentDetailPage({ params: { locale, type } }: 
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[...Array(6)].map((_, i) => (
-              <div
-                key={i}
-                className={`aspect-square rounded-lg bg-gradient-to-br ${apartment.gradient} opacity-70 hover:opacity-90 transition-opacity duration-300`}
-              />
+              <div key={i} className="aspect-square rounded-lg overflow-hidden">
+                <img
+                  src={`${basePath}/images/apartments/interior-${i + 1}.jpg`}
+                  alt={`${apartment.name} interior ${i + 1}`}
+                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                />
+              </div>
             ))}
           </div>
         </div>
@@ -244,8 +249,8 @@ export default async function ApartmentDetailPage({ params: { locale, type } }: 
           <h2 className="text-3xl md:text-4xl font-display font-bold text-bastet-navy mb-8 md:mb-12 text-center">
             Floor Plan
           </h2>
-          <div className={`w-full h-96 bg-gradient-to-br ${apartment.gradient} rounded-lg opacity-70 flex items-center justify-center`}>
-            <p className="text-white text-xl font-semibold text-center">Floor plan illustration</p>
+          <div className="w-full h-96 rounded-lg overflow-hidden bg-bastet-sand flex items-center justify-center">
+            <p className="text-bastet-charcoal-light text-xl font-semibold text-center">Floor plans coming soon</p>
           </div>
         </div>
       </section>

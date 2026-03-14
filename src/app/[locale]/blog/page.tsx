@@ -6,6 +6,8 @@ import SectionHeader from '@/components/shared/SectionHeader';
 import { Calendar, Clock, AlertCircle } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
 export default function BlogPage() {
   const t = useTranslations('blog');
   const [email, setEmail] = useState('');
@@ -87,24 +89,18 @@ export default function BlogPage() {
           </div>
 
           <div className="grid md:grid-cols-3 gap-6 md:gap-8">
-            {articles.map((article) => (
+            {articles.map((article, idx) => (
               <div
                 key={article.id}
                 className="group rounded-xl overflow-hidden bg-white shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 cursor-pointer relative"
               >
-                {/* Image Placeholder */}
-                <div className={cn(
-                  'relative h-48 bg-gradient-to-br overflow-hidden',
-                  article.gradient
-                )}>
-                  <div className="absolute inset-0 opacity-20 group-hover:opacity-10 transition-opacity duration-300 bg-black" />
-
-                  {/* Coming Soon Badge */}
-                  <div className="absolute inset-0 flex items-center justify-center bg-black/30 group-hover:bg-black/40 transition-colors duration-300">
-                    <span className="px-6 py-2 bg-bastet-gold text-bastet-navy font-semibold rounded-full text-sm">
-                      {t('comingSoon')}
-                    </span>
-                  </div>
+                {/* Image */}
+                <div className="relative h-48 overflow-hidden">
+                    <img
+                      src={`${basePath}/images/blog/${['red-sea-hotel', 'smart-home', 'hurghada-beach'][idx] || 'red-sea-hotel'}.jpg`}
+                      alt={article.title}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
                 </div>
 
                 {/* Content */}

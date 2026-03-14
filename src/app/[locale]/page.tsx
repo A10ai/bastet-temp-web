@@ -24,6 +24,8 @@ import {
   Check,
 } from 'lucide-react';
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
 export default function HomePage() {
   const t = useTranslations('home');
   const tHero = useTranslations('hero');
@@ -206,8 +208,13 @@ export default function HomePage() {
                 className="group"
               >
                 <div className="overflow-hidden rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300 h-full">
-                  {/* Image placeholder */}
-                  <div className={`h-48 md:h-56 bg-gradient-to-br ${apt.gradient} opacity-80 group-hover:opacity-100 transition-opacity duration-300`} />
+                  <div className="h-48 md:h-56 overflow-hidden">
+                    <img
+                      src={`${basePath}/images/apartments/${apt.id}.jpg`}
+                      alt={apt.name}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                  </div>
 
                   {/* Content */}
                   <div className="p-6 bg-white">

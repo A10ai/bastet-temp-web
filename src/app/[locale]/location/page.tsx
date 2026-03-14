@@ -6,6 +6,8 @@ import FeatureCard from '@/components/shared/FeatureCard';
 import { Waves, Plane, Fish, Sun, MapPin } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
 export default function LocationPage() {
   const t = useTranslations('location');
 
@@ -63,11 +65,12 @@ export default function LocationPage() {
       {/* Map Placeholder */}
       <section className="section-padding bg-bastet-cream">
         <div className="container">
-          <div className="relative h-96 md:h-[32rem] rounded-xl overflow-hidden shadow-lg bg-gradient-to-br from-slate-200 to-slate-300 border-4 border-bastet-sand flex items-center justify-center">
-            <div className="text-center">
-              <MapPin className="w-20 h-20 text-bastet-navy mx-auto mb-4 opacity-30" />
-              <p className="text-bastet-charcoal-light text-lg">Map coming soon</p>
-            </div>
+          <div className="relative h-96 md:h-[32rem] rounded-xl overflow-hidden shadow-lg">
+                <img
+                  src={`${basePath}/images/location/hurghada-aerial.jpg`}
+                  alt="Hurghada aerial view"
+                  className="w-full h-full object-cover"
+                />
           </div>
         </div>
       </section>

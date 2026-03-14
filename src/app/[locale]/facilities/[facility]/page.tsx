@@ -4,6 +4,8 @@ import { Waves, UtensilsCrossed, Wine, Flower2, Dumbbell, Laptop, Clock, Users, 
 import { notFound } from 'next/navigation';
 import SectionHeader from '@/components/shared/SectionHeader';
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
 type FacilityType = 'pool-beach' | 'restaurant' | 'rooftop-bar' | 'spa-wellness' | 'fitness' | 'coworking';
 
 interface FacilityData {
@@ -287,9 +289,11 @@ export default function FacilityPage({ params: { facility, locale } }: { params:
                   className="group"
                 >
                   <div className="h-48 rounded-lg overflow-hidden mb-4 shadow-lg group-hover:shadow-xl transition-shadow duration-300">
-                    <div className={`h-full bg-gradient-to-br ${related.gradient} opacity-80 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center`}>
-                      <RelatedIcon className="text-white/40 group-hover:text-white/60 transition-colors duration-300" size={64} />
-                    </div>
+                    <img
+                      src={`${basePath}/images/facilities/${facilityId === 'pool-beach' ? 'pool' : facilityId === 'spa-wellness' ? 'spa' : facilityId}.jpg`}
+                      alt={related.title}
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                   <h4 className="text-xl font-display font-bold text-bastet-navy group-hover:text-bastet-gold transition-colors duration-300 mb-2">
                     {related.title}
