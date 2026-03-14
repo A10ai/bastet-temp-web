@@ -9,7 +9,7 @@ type FacilityType = 'pool-beach' | 'restaurant' | 'rooftop-bar' | 'spa-wellness'
 interface FacilityData {
   id: FacilityType;
   title: string;
-  icon: React.ComponentType<{ size?: number; className?: string }>;
+  icon: React.ComponentType<any>;
   gradient: string;
   description: string;
   fullDescription: string;

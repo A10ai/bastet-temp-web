@@ -14,7 +14,7 @@ import {
   Waves,
   UtensilsCrossed,
   Building2,
-  Spa,
+  Flower2,
   Dumbbell,
   Laptop2,
   Sun,
@@ -110,7 +110,7 @@ export default function HomePage() {
       description: t('rooftopDesc'),
     },
     {
-      icon: <Spa size={40} />,
+      icon: <Flower2 size={40} />,
       title: t('spa'),
       description: t('spaDesc'),
     },
