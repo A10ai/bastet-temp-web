@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
-import Link from 'next/link';
+import { Link } from '@/lib/navigation';
 import { Instagram, Facebook, Music2, Youtube, Mail, ArrowRight } from 'lucide-react';
 
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
@@ -31,23 +31,22 @@ const Footer = () => {
   };
 
   const exploreLinks = [
-    { href: '#apartments', label: tNav('apartments') },
-    { href: '#facilities', label: tNav('facilities') },
-    { href: '#smart-hotel', label: tNav('smartHotel') },
-    { href: '#location', label: tNav('location') },
-    { href: '#digital-nomads', label: tNav('digitalNomads') },
+    { href: '/apartments', label: tNav('apartments') },
+    { href: '/facilities', label: tNav('facilities') },
+    { href: '/smart-hotel', label: tNav('smartHotel') },
+    { href: '/location', label: tNav('location') },
+    { href: '/digital-nomads', label: tNav('digitalNomads') },
   ];
 
   const companyLinks = [
-    { href: '#about', label: tNav('about') },
-    { href: '#contact', label: tNav('contact') },
-    { href: '#blog', label: tNav('blog') },
+    { href: '/about', label: tNav('about') },
+    { href: '/contact', label: tNav('contact') },
+    { href: '/blog', label: tNav('blog') },
   ];
 
   const legalLinks = [
-    { href: '#privacy', label: tFooter('privacy') },
-    { href: '#terms', label: tFooter('terms') },
-    { href: '#cookies', label: tFooter('cookies') },
+    { href: '/privacy', label: tFooter('privacy') },
+    { href: '/terms', label: tFooter('terms') },
   ];
 
   const socialLinks = [
@@ -146,12 +145,12 @@ const Footer = () => {
               <ul className="space-y-3">
                 {exploreLinks.map((link) => (
                   <li key={link.href}>
-                    <a
+                    <Link
                       href={link.href}
                       className="text-bastet-sand hover:text-bastet-gold transition-colors duration-200 text-sm"
                     >
                       {link.label}
-                    </a>
+                    </Link>
                   </li>
                 ))}
               </ul>
@@ -165,12 +164,12 @@ const Footer = () => {
               <ul className="space-y-3">
                 {companyLinks.map((link) => (
                   <li key={link.href}>
-                    <a
+                    <Link
                       href={link.href}
                       className="text-bastet-sand hover:text-bastet-gold transition-colors duration-200 text-sm"
                     >
                       {link.label}
-                    </a>
+                    </Link>
                   </li>
                 ))}
               </ul>
@@ -184,12 +183,12 @@ const Footer = () => {
               <ul className="space-y-3">
                 {legalLinks.map((link) => (
                   <li key={link.href}>
-                    <a
+                    <Link
                       href={link.href}
                       className="text-bastet-sand hover:text-bastet-gold transition-colors duration-200 text-sm"
                     >
                       {link.label}
-                    </a>
+                    </Link>
                   </li>
                 ))}
               </ul>

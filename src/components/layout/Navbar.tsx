@@ -24,14 +24,14 @@ const Navbar = () => {
   }, []);
 
   const navLinks = [
-    { href: '#apartments', label: t('apartments') },
-    { href: '#facilities', label: t('facilities') },
-    { href: '#smart-hotel', label: t('smartHotel') },
-    { href: '#location', label: t('location') },
-    { href: '#digital-nomads', label: t('digitalNomads') },
-    { href: '#blog', label: t('blog') },
-    { href: '#about', label: t('about') },
-    { href: '#contact', label: t('contact') },
+    { href: '/apartments', label: t('apartments') },
+    { href: '/facilities', label: t('facilities') },
+    { href: '/smart-hotel', label: t('smartHotel') },
+    { href: '/location', label: t('location') },
+    { href: '/digital-nomads', label: t('digitalNomads') },
+    { href: '/blog', label: t('blog') },
+    { href: '/about', label: t('about') },
+    { href: '/contact', label: t('contact') },
   ];
 
   return (
@@ -57,7 +57,7 @@ const Navbar = () => {
           {/* Desktop Navigation Links */}
           <div className="hidden lg:flex items-center gap-8">
             {navLinks.map((link) => (
-              <a
+              <Link
                 key={link.href}
                 href={link.href}
                 className={cn(
@@ -66,7 +66,7 @@ const Navbar = () => {
                 )}
               >
                 {link.label}
-              </a>
+              </Link>
             ))}
           </div>
 
@@ -74,9 +74,9 @@ const Navbar = () => {
           <div className="flex items-center gap-4 md:gap-6">
             <LanguageSwitcher />
 
-            <button className="btn-primary text-sm md:text-base py-2 md:py-3 px-4 md:px-6">
+            <Link href="/book" className="btn-primary text-sm md:text-base py-2 md:py-3 px-4 md:px-6">
               {t('bookNow')}
-            </button>
+            </Link>
 
             {/* Mobile Menu Toggle */}
             <button
@@ -103,18 +103,18 @@ const Navbar = () => {
           <div className="lg:hidden absolute top-full left-0 right-0 bg-white shadow-lg animate-slide-down">
             <div className="flex flex-col px-4 py-4 gap-2">
               {navLinks.map((link) => (
-                <a
+                <Link
                   key={link.href}
                   href={link.href}
                   className="btn-nav text-bastet-charcoal py-2 px-4 rounded-lg hover:bg-bastet-sand transition-colors"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   {link.label}
-                </a>
+                </Link>
               ))}
-              <button className="btn-primary w-full mt-4">
+              <Link href="/book" className="btn-primary w-full mt-4 text-center block">
                 {t('bookNow')}
-              </button>
+              </Link>
             </div>
           </div>
         )}
