@@ -25,35 +25,43 @@ export default function BlogPage() {
   const articles = [
     {
       id: 1,
-      title: '15 Best Dive Sites in the Red Sea',
-      excerpt: 'Explore the world\'s most vibrant coral reefs and crystal-clear waters. From Elphinstone to the Brother Islands, discover the Red Sea\'s underwater treasures.',
+      title: t('article1Title'),
+      excerpt: t('article1Excerpt'),
       date: '2025-03-10',
-      readTime: '8 min read',
-      gradient: 'from-blue-500 to-cyan-400',
+      readTime: '8 min',
+      image: 'red-sea-hotel',
     },
     {
       id: 2,
-      title: 'Work from Hurghada: The Digital Nomad\'s Guide',
-      excerpt: 'Fast internet, affordable living, and world-class beaches. Everything you need to know about extending your stay in Egypt\'s Red Sea capital.',
+      title: t('article2Title'),
+      excerpt: t('article2Excerpt'),
       date: '2025-03-08',
-      readTime: '12 min read',
-      gradient: 'from-purple-500 to-pink-500',
+      readTime: '12 min',
+      image: 'smart-home',
     },
     {
       id: 3,
-      title: 'Sustainable Travel: How to Protect the Red Sea',
-      excerpt: 'Learn eco-friendly practices when diving, dining, and exploring Hurghada. Small actions make a big difference for marine conservation.',
+      title: t('article3Title'),
+      excerpt: t('article3Excerpt'),
       date: '2025-03-05',
-      readTime: '10 min read',
-      gradient: 'from-green-500 to-emerald-400',
+      readTime: '10 min',
+      image: 'hurghada-beach',
     },
   ];
 
   return (
     <div>
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-bastet-navy to-bastet-midnight text-white py-20 md:py-28 lg:py-36">
-        <div className="container text-center">
+      <section className="relative overflow-hidden">
+        <div className="absolute inset-0">
+          <img
+            src={`${basePath}/images/blog/hurghada-beach.jpg`}
+            alt=""
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-bastet-navy/85 to-bastet-midnight/90" />
+        </div>
+        <div className="container relative z-10 py-24 md:py-32 lg:py-40 text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold text-bastet-cream mb-4">
             {t('title')}
           </h1>
@@ -83,24 +91,24 @@ export default function BlogPage() {
         <div className="container">
           <div className="mb-12">
             <SectionHeader
-              title="What We're Working On"
-              subtitle="Check back soon for guides, stories, and insider tips"
+              title={t('workingOn')}
+              subtitle={t('workingOnSubtitle')}
             />
           </div>
 
           <div className="grid md:grid-cols-3 gap-6 md:gap-8">
-            {articles.map((article, idx) => (
+            {articles.map((article) => (
               <div
                 key={article.id}
                 className="group rounded-xl overflow-hidden bg-white shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 cursor-pointer relative"
               >
                 {/* Image */}
                 <div className="relative h-48 overflow-hidden">
-                    <img
-                      src={`${basePath}/images/blog/${['red-sea-hotel', 'smart-home', 'hurghada-beach'][idx] || 'red-sea-hotel'}.jpg`}
-                      alt={article.title}
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                    />
+                  <img
+                    src={`${basePath}/images/blog/${article.image}.jpg`}
+                    alt={article.title}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
                 </div>
 
                 {/* Content */}
@@ -137,10 +145,10 @@ export default function BlogPage() {
       <section className="section-padding bg-gradient-to-r from-bastet-navy to-bastet-midnight text-white">
         <div className="container max-w-2xl text-center">
           <h2 className="text-3xl md:text-4xl font-display font-bold text-bastet-cream mb-4">
-            Never Miss a Story
+            {t('neverMiss')}
           </h2>
           <p className="text-lg text-bastet-sand mb-8">
-            Subscribe to get articles, guides, and Red Sea tips delivered to your inbox.
+            {t('neverMissDesc')}
           </p>
 
           <form onSubmit={handleSubscribe} className="flex flex-col sm:flex-row gap-3">
@@ -148,7 +156,7 @@ export default function BlogPage() {
               type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              placeholder="Enter your email"
+              placeholder={t('emailPlaceholder')}
               className="flex-1 px-6 py-4 rounded-lg text-bastet-navy focus:outline-none focus:ring-2 focus:ring-bastet-gold"
               required
             />
@@ -161,12 +169,12 @@ export default function BlogPage() {
                   : 'bg-gradient-to-r from-bastet-gold to-bastet-gold-light text-bastet-navy hover:shadow-lg'
               )}
             >
-              {isSubscribed ? '✓ Subscribed!' : 'Subscribe'}
+              {isSubscribed ? `\u2713 ${t('subscribed')}` : t('subscribe')}
             </button>
           </form>
 
           <p className="text-sm text-bastet-sand-light mt-4">
-            No spam. Just insights, inspiration, and early-bird offers.
+            {t('noSpam')}
           </p>
         </div>
       </section>
