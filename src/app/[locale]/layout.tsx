@@ -2,24 +2,24 @@ import type { Metadata } from 'next';
 import { NextIntlClientProvider } from 'next-intl';
 import { unstable_setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
-import { DM_Serif_Display, Inter } from 'next/font/google';
+import { Montserrat, DM_Sans } from 'next/font/google';
 import { locales, rtlLocales } from '@/i18n';
 import type { Locale } from '@/i18n';
 import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
 import '@/app/globals.css';
 
-const dmSerifDisplay = DM_Serif_Display({
+const montserrat = Montserrat({
   variable: '--font-display',
-  weight: '400',
-  style: 'normal',
-  subsets: ['latin'],
+  weight: ['300', '400', '500', '600', '700', '800'],
+  subsets: ['latin', 'cyrillic', 'latin-ext'],
   display: 'swap',
 });
 
-const inter = Inter({
+const dmSans = DM_Sans({
   variable: '--font-body',
-  subsets: ['latin', 'cyrillic'],
+  weight: ['300', '400', '500', '600', '700'],
+  subsets: ['latin', 'latin-ext'],
   display: 'swap',
 });
 
@@ -111,7 +111,7 @@ export default async function RootLayout({ children, params }: Props) {
     <html
       lang={locale}
       dir={isRtl ? 'rtl' : 'ltr'}
-      className={`${dmSerifDisplay.variable} ${inter.variable}`}
+      className={`${montserrat.variable} ${dmSans.variable}`}
     >
       <head>
         <meta charSet="utf-8" />

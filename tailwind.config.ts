@@ -26,14 +26,14 @@ const config: Config = {
         },
       },
       fontFamily: {
-        display: ['var(--font-display)', 'serif'],
+        display: ['var(--font-display)', 'sans-serif'],
         body: ['var(--font-body)', 'sans-serif'],
       },
       fontSize: {
-        'display-xl': ['4.5rem', { lineHeight: '1.1', letterSpacing: '-0.02em' }],
-        'display-lg': ['3.5rem', { lineHeight: '1.15', letterSpacing: '-0.02em' }],
-        'display-md': ['2.5rem', { lineHeight: '1.2', letterSpacing: '-0.01em' }],
-        'display-sm': ['1.875rem', { lineHeight: '1.25', letterSpacing: '-0.01em' }],
+        'display-xl': ['4.5rem', { lineHeight: '1.05', letterSpacing: '0.1em' }],
+        'display-lg': ['3.5rem', { lineHeight: '1.1', letterSpacing: '0.08em' }],
+        'display-md': ['2.5rem', { lineHeight: '1.15', letterSpacing: '0.06em' }],
+        'display-sm': ['1.875rem', { lineHeight: '1.2', letterSpacing: '0.05em' }],
       },
       spacing: {
         'section': '6rem',
